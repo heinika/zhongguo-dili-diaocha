@@ -293,3 +293,42 @@ Redraw the whole image cohesively. Do not add a pasted-looking stadium. No blank
     images/
       01-北京市总图.png
 ```
+
+## Telegram 发送规则
+
+项目内已有发送图片到 Telegram 的脚本：
+
+```powershell
+tools/send-telegram-image.ps1
+```
+
+当用户要求“发送到 Telegram”或“把这张图片发到 Telegram”时，优先使用该脚本发送本地图片，不要重新实现接口调用。
+
+脚本参数：
+
+```powershell
+.\tools\send-telegram-image.ps1 `
+  -ImagePath "C:\Users\vip10\Documents\地理\全国省份手绘地图\北京市\images\01-北京市总图-v3-中轴修正版.png" `
+  -Caption "北京市｜山环水抱，中轴古都"
+```
+
+脚本默认读取以下环境变量：
+
+```powershell
+$env:TELEGRAM_BOT_TOKEN
+$env:TELEGRAM_CHAT_ID
+```
+
+如果环境变量缺失，先提示用户在本机 PowerShell 中设置，不要让用户把 token 明文发到对话里：
+
+```powershell
+$env:TELEGRAM_BOT_TOKEN="..."
+$env:TELEGRAM_CHAT_ID="..."
+```
+
+安全要求：
+
+- 不要把 Telegram bot token、chat id、接口响应中的敏感信息写入仓库。
+- 不要把 token 写进 `Agents.md`、脚本、提交信息或日志说明。
+- 发送前必须确认图片路径存在。
+- 发送成功后只简要告知用户已发送，并说明发送的图片文件名。
