@@ -22,19 +22,23 @@ if (-not $ChatId) {
 $resolvedImagePath = Resolve-Path -LiteralPath $ImagePath
 $uri = "https://api.telegram.org/bot$BotToken/sendPhoto"
 
-$form = @{
-  chat_id = $ChatId
-  photo = Get-Item -LiteralPath $resolvedImagePath
-}
+$curlArgs = @(
+  "-s",
+  "-X", "POST",
+  $uri,
+  "-F", "chat_id=$ChatId",
+  "-F", "photo=@$resolvedImagePath"
+)
 
 if ($Caption) {
-  $form.caption = $Caption
+  $curlArgs += @("-F", "caption=$Caption")
 }
 
-$response = Invoke-RestMethod -Uri $uri -Method Post -Form $form
+$rawResponse = & curl.exe @curlArgs
+$response = $rawResponse | ConvertFrom-Json
 
 if (-not $response.ok) {
-  throw "Telegram send failed: $($response | ConvertTo-Json -Depth 5)"
+  throw "Telegram send failed: $rawResponse"
 }
 
 "Sent: $resolvedImagePath"
