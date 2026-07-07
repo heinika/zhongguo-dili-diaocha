@@ -1,334 +1,290 @@
-# 手绘地图生成 Agent
+# 省份手绘地理图生成 Agent 流程
 
-## Agent 角色
+本文档用于复用本次“内蒙古手绘地图海报”流程，后续生成其他省份时按此执行。
 
-你是一名中国地理手绘地图视觉策划 Agent，负责为省级、直辖市、自治区、特别行政区以及地级市生成统一风格的手绘地图海报提示词。
+## 目标
 
-你的任务不是简单堆叠地标，而是把地形、水系、城市肌理、历史轴线、现代建筑和文字标注组织成一张完整、协调、可发布的竖版手绘地图。
+根据参考图风格，为一个省级行政区生成一套复古立体手绘地理图：
 
-## 输出目标
+- 省级总览图 1 张
+- 地级市 / 自治州 / 盟等主要行政区分图
+- 必要时补充强旅游认知城市或区域
+- 图片只保存到各自省份目录或合集子文件夹，不要平铺到当前文件夹根目录
+- ZIP 压缩包方便转发
+- 可选生成小红书配文，配文末尾必须带小红书话题标签
+- 如果用户要求“Telegram 发我”，默认发送所有 PNG 图片原图和小红书文案正文；ZIP 只作为本地归档或用户明确要求压缩包时发送
 
-- 输出一张竖版手绘地图海报。
-- 画面比例为 2:3，推荐尺寸为 1024 x 1536。
-- 风格统一为古地图纸张、手绘立体地形、国风水彩、细密线稿。
-- 画面中必须包含大标题、短副标题、主体地图、外围标注框、底部图标栏。
-- 标注框不能留空，所有中文必须尽量短、清晰、准确。
+## 参考风格
 
-## 通用画面格式
+本次参考图风格要点：
 
-### 1. 画布
+- 复古羊皮纸背景
+- 细线中式装饰边框
+- 大号中文书法标题
+- 等距 / 鸟瞰式立体地图
+- 手绘钢笔线稿 + 水彩上色
+- 地形、河流、城市、建筑、交通、动植物同时出现
+- 小立牌标注地名和景点
+- 底部 5-6 个小景窗展示代表性地貌或地标，每个小景窗必须带 1 句简短中文介绍，说明该图案代表什么地理、文化或城市特征
+- 整体像旧地图、文旅海报、地理图鉴
 
-- 竖版海报，2:3。
-- 米黄色旧纸纹理背景。
-- 四周留出自然纸边和呼吸空间。
-- 不使用现代 UI、卡片、按钮、渐变背景或纯矢量扁平风。
+生成时应避免：
 
-### 2. 主体地图
+- 现代扁平矢量风
+- 真实照片质感
+- 过度 3D 渲染
+- 大量随机乱码文字
+- 水印
 
-- 主体为省市轮廓或区域轮廓的立体沙盘式地图。
-- 轮廓尽量接近真实地理形态，但允许为构图做轻微艺术化。
-- 地图应有切面边缘，像一块从地面抬起的手绘地形模型。
-- 地形、水系、城市、道路、山脉、湖泊、海岸线要统一笔触，不允许后期贴图感。
+## 前期准备
 
-### 3. 标题区
+1. 明确省份名称，例如：`内蒙古自治区`、`黑龙江省`、`四川省`。
+2. 明确输出目录，默认使用当前工作目录。
+3. 如果用户提供参考图，先读取并观察风格。
+4. 确定该省份的行政区列表。
+5. 查询或整理各地级行政区最新可获得的常住人口数据。
+6. 将地级行政区按常住人口数量从多到少排序，作为分图生成和编号顺序。
+7. 确定是否需要补充非地级但认知强的城市或区域。
+8. 生成每个城市 / 地区分图前，必须先搜索并查看该城市地图或官方文旅地图，整理真实空间关系：主要河流湖泊、山脉海岸、老城 / 新城、交通走廊、地标相对方位。后续绘图必须以地图关系为骨架，再叠加景点与文化元素，不能只按景点清单自由拼贴。
 
-- 大标题放在画面上方偏右或上方中央。
-- 标题文字为行政区名称，例如：`北京市`、`福建省`、`河北省`。
-- 副标题为 8 到 12 个字左右，概括地理和文化气质。
-- 示例：
-  - `北京市`
-  - `山环水抱，中轴古都`
+例如内蒙古：
 
-### 4. 标注框
+- 省级总览：内蒙古自治区
+- 12 个盟市：呼和浩特、包头、乌海、赤峰、通辽、鄂尔多斯、呼伦贝尔、巴彦淖尔、乌兰察布、兴安盟、锡林郭勒盟、阿拉善盟
+- 补充城市：海拉尔、满洲里
 
-- 标注框分布在主体地图外围，使用复古线框。
-- 每个标注框通过虚线或细线指向地图中的对应位置。
-- 每张省级总图建议 5 到 7 个标注。
-- 标注文字使用短词，不写长句。
-- 标注框不得留空。
+## 推荐目录结构
 
-### 5. 底部图标栏
+不要把 PNG 图片平铺到当前文件夹根目录。每个省份应使用独立目录保存图片，ZIP 可以放在当前目录或省份目录中。
 
-- 底部保留一排 5 到 6 个手绘小图标。
-- 图标对应当地代表性元素：山脉、长城、古城门、庙宇、河流、桥梁、港口、城市天际线等。
-- 图标之间用细竖线分隔。
-- 底部图标风格必须和主体地图一致。
-
-## 地理内容规则
-
-### 地形优先
-
-先确定该地区的地理骨架：
-
-- 山脉
-- 河流
-- 湖泊
-- 海岸
-- 平原
-- 高原
-- 沙漠
-- 盆地
-- 岛屿
-
-不要只画城市建筑。地理地图必须先有地形逻辑。
-
-### 城市和地标
-
-地标要放在合理方位，不要漂浮或硬贴。
-
-- 默认采用上北下南、左西右东的地图阅读关系；如果为构图旋转视角，必须在提示词中重新说明方位关系。
-- 生成前必须先核对核心地标的真实相对方位，尤其是同一区域内的相邻地标，不能只写在同一个片区。
-- 古建筑应融入历史城区。
-- 现代建筑应融入城市肌理。
-- 港口应贴近海湾或江岸。
-- 机场应在城市外围。
-- 长城应沿山脊延展。
-- 水库、湖泊应位于水系和山地之间。
-
-### 轴线和空间关系
-
-如果城市有明确空间秩序，必须体现出来。
-
-例如北京：
-
-- 中轴线从南向北组织城市。
-- 轴线上应依次体现永定门、天坛、前门、故宫、景山、钟鼓楼方向，以及北延线上的鸟巢。
-- 鸟巢必须与城市道路和建筑一起生成，不能像后期贴上去。
-
-### 北京区级地图校正规则
-
-生成北京市及各区地图时，必须先检查以下真实空间关系，再写入提示词：
-
-- 朝阳区：奥林匹克公园在区境西北部；水立方在西侧，鸟巢在东侧，二者呈东西排列；国贸在区境西南部，三里屯在国贸以北偏西，798 在东北方向，朝阳公园在中东部。
-- 东城区：故宫靠西侧，中轴线贯穿南北；天坛在南部，前门在故宫以南，钟鼓楼在北部，王府井在东侧。
-- 西城区：北海居中偏北，什刹海在北部水系，白塔寺在西部，金融街在西南部，德胜门在北部。
-- 丰台区：永定河沿西部，卢沟桥和宛平城临永定河，北京西站偏东北，丰台站在中南部交通廊道。
-- 石景山区：西山余脉在北部和西部，永定河在西侧，首钢园靠西临河，八大处在北部山麓。
-- 海淀区：西山在西侧，香山在西部山麓，颐和园和昆明湖在西北，圆明园在颐和园以东，清华北大在中北部，五道口在其东南侧。
-- 门头沟区：整体以西部山地和永定河谷为骨架，潭柘寺靠东部山麓，妙峰山、百花山分处山地核心。
-- 房山区：十渡和拒马河在西南峡谷，周口店在山前地带，云居寺和上方山依山分布。
-- 通州区：大运河纵贯副中心，燃灯塔临运河，城市绿心和行政办公区沿水系展开，环球影城在东南方向。
-- 顺义区：首都机场在西南部，潮白河在东部，奥林匹克水上公园和汉石桥湿地沿水系与平原展开。
-- 昌平区：十三陵在北部山前，居庸关和南口在西北山口，回龙观在南部，未来科学城在东部平原。
-- 大兴区：大兴机场在南部，南海子在北部，亦庄在东部，永定河在西侧。
-- 怀柔区：长城在北部山脊，雁栖湖在北部山水间，红螺寺靠雁栖湖附近山麓，科学城靠南部平原。
-- 平谷区：金海湖在东部山水间，京东大峡谷在东北山地，泃河贯穿平原，桃花海铺在山前和平原过渡带。
-- 密云区：密云水库为核心大水面，潮河、白河入库，司马台长城和古北水镇在东北山谷。
-- 延庆区：八达岭长城在东南山口，妫水河贯穿盆地，龙庆峡在东北峡谷，海坨山在西北。
-
-## 小红书配文规则
-
-### 北京市总图配文
-
-为北京市手绘地图写小红书配文时，必须采用“地理性格叙事”，不能只写打卡地合集。
-
-- 开头使用句式：`把北京市画成一张立体手绘地图，才发现它的地理性格特别立体。`
-- 第一段先写北京的山水骨架：北部燕山，西部太行余脉与西山，长城沿山脊展开，密云水库、永定河、潮白河等水系托起城市边界。
-- 第二段写中轴线和古都空间：永定门、天坛、前门、故宫、景山、钟鼓楼方向，以及北延线上的奥林匹克公园。
-- 第三段写现代城市和外围区位：国贸、鸟巢、水立方、大兴机场、城市副中心、雄安方向或京津冀联系，但必须服务于地理叙事。
-- 结尾必须提炼成两句短句，形成可传播的情绪收束，例如：
-  - `一半是山河古都。`
-  - `一半是京畿新城。`
-- 最后给出一句地图副标题式收束，例如：`北京：山环水抱，中轴古都。`
-
-### 北京区级配文
-
-为北京市各区手绘地图写小红书配文时，必须先写地理和空间关系，再写地标。
-
-- 开头句式：`把北京【区名】画成一张立体手绘地图，才发现它的城市性格特别鲜明。`
-- 正文必须包含该区的地理骨架：山地、河流、湖泊、湿地、平原、城市轴线、交通廊道或城市肌理。
-- 地标叙述必须遵守“北京区级地图校正规则”的真实方位，不能为了文案顺口而改变空间关系。
-- 朝阳区配文必须明确：奥林匹克公园在区境西北部，水立方在西，鸟巢在东，二者呈东西排列；国贸在西南部，三里屯在国贸以北偏西，798 在东北方向，朝阳公园在中东部。
-- 不要写成单纯旅游攻略，不要只罗列景点，不要使用夸张营销话术。
-- 每篇配文建议结构：
-  - 第一段：`把北京【区名】画成一张立体手绘地图...`
-  - 第二段：说明山水、平原、水系、轴线或城市骨架。
-  - 第三段：说明核心地标的真实空间关系。
-  - 第四段：提炼该区气质。
-  - 结尾两句：`一半是【地理/历史意象】。`、`一半是【现代/生活意象】。`
-  - 最后一行：`【区名】：【8 到 12 字副标题】。`
-
-### 小红书配文风格
-
-- 语言要有画面感，但必须准确。
-- 句子短，段落短，适合手机阅读。
-- 每篇正文控制在 300 到 600 字左右。
-- 标签放在最后，建议 12 到 18 个。
-- 标签应包含行政区、手绘地图、地图插画、地理图鉴、北京地理、旅行地图、文旅海报，以及图中核心地标。
-- 不要使用英文标签。
-
-## 文字规则
-
-- 大标题必须尽量正确、清晰。
-- 副标题必须短，不超过 12 个汉字为宜。
-- 标注框文字必须短。
-- 不要生成英文、水印、签名、乱码、无意义装饰文字。
-- 如果生成模型不擅长中文，可以先生成少字或空白框底图，再后期统一叠加准确中文。
-
-## 风格关键词
-
-可使用以下风格描述：
+以省份英文或拼音命名合集目录：
 
 ```text
-古地图纸张、米黄色旧纸纹理、手绘立体地形、国风水彩、细密线稿、复古旅行地图、沙盘式地图、等距视角、淡彩设色、墨线描边、温暖棕色墨迹、柔和阴影、自然纸张颗粒
+当前目录/
+  province_handdrawn/
+    00_省份总览.png
+    01_城市A.png
+    02_城市B.png
+    ...
+  province_handdrawn.zip
 ```
 
-避免以下风格：
+中文省份也可使用中文目录，例如：
 
 ```text
-现代 UI、扁平矢量、3D 游戏地图、卫星地图、照片写实、赛博朋克、霓虹灯、塑料质感、贴纸拼贴、后期硬贴、空白标注框、英文水印、错乱文字
+当前目录/
+  内蒙古.zip
+  内蒙古/
+    00_内蒙古自治区总览.png
+    01_呼和浩特市.png
+    ...
 ```
 
-## 标准提示词模板
+## 生成顺序
+
+建议按以下顺序执行：
+
+1. 先生成省级总览图。
+2. 每生成一个地级行政区分图前，先搜索该城市地图，确认核心地理骨架和主要地标方位。
+3. 再生成所有地级行政区分图，顺序按最新可获得常住人口数量从多到少排列。
+4. 最后补充强旅游认知城市或特殊区域；补充区域同样要先查地图，再按真实空间关系生成。
+5. 复制到该省份专属目录或合集子文件夹。
+6. 更新 ZIP 压缩包。
+7. 生成小红书配文，并在末尾补充小红书话题标签。
+
+这样不容易漏掉“省份总览图”，也能让整套图片顺序更符合城市规模认知。
+
+## 省级总览图 Prompt 模板
+
+将 `{省份}`、`{副标题}`、`{地貌}`、`{行政区列表}`、`{底部景窗}` 替换成目标省份内容。
 
 ```text
-Use case: style-transfer
-Asset type: hand-painted Chinese geography map poster
-
-Primary request:
-Redraw a complete hand-painted illustrated map poster for【行政区名称】. The image must be one cohesive artwork, not a collage or patched overlay.
-
-Scene/backdrop:
-Warm aged parchment paper background, antique Chinese atlas poster, portrait 2:3 layout.
-
-Subject:
-An isometric cutaway map of【行政区名称】with realistic regional outline, major terrain, water systems, cities, roads, and representative landmarks.
-
-Required geography:
-【填写山脉、河流、湖泊、海岸、平原、高原、沙漠、盆地等】
-
-Required landmarks:
-【填写 5 到 8 个地标，说明大致方位和空间关系】
-
-Spatial logic:
-【填写必须遵守的地理关系、城市轴线、山水格局或港湾关系】
-
-Style/medium:
-Richly detailed hand-drawn Chinese ink and watercolor illustration, antique illustrated atlas, fine linework, muted gouache colors, cohesive brush texture, parchment grain, no photorealism, no vector look.
-
-Composition/framing:
-Portrait poster, 2:3 aspect ratio, large title at the top, subtitle beneath, main map in the center, label frames around the map, decorative hand-drawn icon strip at the bottom.
-
-Text (verbatim):
-Title: "【行政区名称】"
-Subtitle: "【8 到 12 字副标题】"
-Labels: "【标注1】", "【标注2】", "【标注3】", "【标注4】", "【标注5】"
-
-Color palette:
-Warm parchment beige, dark brown ink, muted greens for mountains and fields, restrained blue for rivers and lakes, ochre and gold for architecture.
-
-Constraints:
-The entire image must be redrawn cohesively. All landmarks must share the same perspective, lighting, linework, color, and texture. Do not paste objects on top. No blank label boxes. No extra English text. No watermark. No modern UI. No distorted main title.
+Use case: stylized-concept
+Asset type: illustrated regional travel-map poster
+Primary request: Create one hand-drawn vintage illustrated overview map poster for {省份}, matching the reference style: antique parchment background, ornate Chinese border, large brush calligraphy title, raised cutout regional map silhouette, isometric hand-painted terrain, dense ink-and-watercolor details, sepia outlines, muted natural colors.
+Subject: {省份} overall map. Large Chinese calligraphy title at top: “{省份}”. Subtitle: “{副标题}”.
+Scene/backdrop: Show the full province shape as a raised illustrated map cutout. Include representative geography: {地貌}. Include cities, rivers, lakes, mountains, plains, forests, farmland, historic sites, railways and local cultural symbols.
+Key regional labels with small plaques: {行政区列表}.
+Bottom inset panels with captions and one-sentence Chinese descriptions: {底部景窗}. Each bottom inset must include a distinctive local pattern, landmark, landform, animal, plant, craft, food, or cultural symbol, plus a short explanation of what it represents. Do not only draw the icons without explanatory text.
+Composition: portrait poster, title area on top, central full-region map silhouette spanning most of the page, small callout plaques connected by thin lines, decorative compass rose, ornate corner motifs, bottom row of six framed scenic vignettes. Under or inside each bottom vignette, add a short Chinese caption plus a one-sentence description.
+Text handling: Chinese text should be short, legible, brush-style, and limited to the specified title, subtitle, regional labels, and inset captions. Avoid random invented text.
+Style constraints: hand-drawn vintage atlas illustration, detailed watercolor and ink linework, parchment texture, museum travel poster feel, no photorealism, no flat vector, no modern UI, no watermark.
 ```
 
-## 北京市示例提示词
+## 城市 / 地区分图 Prompt 模板
 
 ```text
-Use case: style-transfer
-Asset type: hand-painted Chinese geography map poster
-
-Primary request:
-Redraw a complete hand-painted illustrated map poster for 北京市. The image must be one cohesive artwork, not a collage or patched overlay.
-
-Scene/backdrop:
-Warm aged parchment paper background, antique Chinese atlas poster, portrait 2:3 layout.
-
-Subject:
-An isometric cutaway map of Beijing with mountains in the north and northwest, Great Wall along the ridges, reservoirs and rivers in the outer districts, and the old imperial city plus modern urban core in the center.
-
-Required geography:
-燕山余脉, 太行山余脉, 八达岭长城, 香山, 密云水库, 永定河, 北京平原, 城市中轴线.
-
-Required landmarks:
-八达岭长城 in the northwest mountains, 香山 in the western hills, 密云水库 in the northeast, 永定河 in the southwest, 大兴机场 in the south, 故宫 and 天坛 on the central axis, 鸟巢 on the north extension of the central axis.
-
-Spatial logic:
-The Beijing central axis must organize the city from south to north: 永定门 direction, 天坛, 前门, 故宫, 景山, 钟鼓楼 direction, and the Bird's Nest on the north extension. The Bird's Nest must be generated as part of the city fabric with matching perspective and brushwork, not pasted on top.
-
-Style/medium:
-Richly detailed hand-drawn Chinese ink and watercolor illustration, antique illustrated atlas, fine linework, muted gouache colors, cohesive brush texture, parchment grain, no photorealism, no vector look.
-
-Composition/framing:
-Portrait poster, 2:3 aspect ratio. Large title at the top right: "北京市". Subtitle beneath: "山环水抱，中轴古都". Main map occupies the center and lower area. Label frames around the map point to their corresponding locations. Decorative icon strip at the bottom includes mountains, Great Wall, old city gate, Temple of Heaven, river, and modern skyline.
-
-Text (verbatim):
-Title: "北京市"
-Subtitle: "山环水抱，中轴古都"
-Labels: "八达岭长城", "香山", "密云水库", "永定河", "大兴机场"
-
-Color palette:
-Warm parchment beige, dark brown ink, muted greens for mountains and parks, restrained blue for rivers and reservoirs, ochre and gold for palace architecture.
-
-Constraints:
-Redraw the whole image cohesively. Do not add a pasted-looking stadium. No blank label boxes. No mismatched overlays. No modern UI. No watermark. No extra English text. No distorted main title. The central axis must be visually readable and the Bird's Nest must belong to it.
+Use case: stylized-concept
+Asset type: illustrated travel-map poster series
+Primary request: Create one hand-drawn vintage travel map poster for {城市或地区}, matching the existing series style: antique parchment background, ornate Chinese border, large brush calligraphy title, dense isometric bird's-eye travel map, ink-and-watercolor, sepia linework, muted natural colors.
+Subject: {城市或地区}, {省份}. Large Chinese title at top: “{城市或地区}”. Subtitle: “{副标题}”.
+Map basis: Before drawing, use the real city map as the spatial skeleton. Show the correct relative positions of major rivers, lakes, mountains, coastline, old city, new district, transport corridors, and key landmarks. Preserve important map relationships from the searched map; do not freely scatter landmarks.
+Scene/backdrop: {城市或地区的核心地理与城市气质}. Include representative terrain, rivers, city blocks, railways, landmarks, cultural architecture, local agriculture or ecology.
+Key landmarks with labels: {地标1}, {地标2}, {地标3}, {地标4}, {地标5}, {地标6}.
+Composition: portrait poster; title at top; central panoramic bird's-eye illustrated city map; vertical callout plaques connected by thin lines; decorative compass rose; ornate corner motifs; bottom row of six framed scenic vignette panels with captions and one-sentence Chinese descriptions. Each bottom vignette should explain the distinctive local pattern, landmark, landform, animal, plant, craft, food, or cultural symbol it shows.
+Text handling: Chinese text should be short and legible; use only the specified title, subtitle, labels and captions; avoid random invented text.
+Style constraints: hand-drawn vintage atlas illustration, fine ink linework, watercolor washes, weathered parchment texture, no photorealism, no flat vector, no modern UI, no watermark.
 ```
 
-## 生成后检查清单
+## 命名规则
 
-- 行政区名称是否正确。
-- 副标题是否正确且没有乱码。
-- 标注框是否全部有文字。
-- 地标方位是否大致合理。
-- 重要城市空间关系是否成立。
-- 是否有后期贴图感。
-- 鸟巢、机场、港口、长城等大型元素是否与周围环境自然融合。
-- 底部图标栏是否完整。
-- 是否出现水印、英文、乱码、多余文字。
-- 图片是否仍为竖版 2:3。
-
-## 文件命名规范
+推荐使用两位数字排序。`00` 固定为省级总览图；`01` 开始按地级行政区最新可获得常住人口数量从多到少编号；补充的县级市、城区、旅游区或特殊区域排在所有地级行政区之后。
 
 ```text
-全国省份手绘地图/
-  省份或直辖市名称/
-    images/
-      01-省份或直辖市名称总图.png
+00_省份总览.png
+01_人口最多的地级行政区.png
+02_城市A.png
+03_城市B.png
+...
+13_补充城市A.png
+14_补充城市B.png
 ```
 
-示例：
+内蒙古示例（实际生成前应按最新常住人口数据重新排序）：
 
 ```text
-全国省份手绘地图/
-  北京市/
-    images/
-      01-北京市总图.png
+00_内蒙古自治区总览.png
+01_呼和浩特市.png
+02_包头市.png
+03_乌海市.png
+04_赤峰市.png
+05_通辽市.png
+06_鄂尔多斯市.png
+07_呼伦贝尔市.png
+08_巴彦淖尔市.png
+09_乌兰察布市.png
+10_兴安盟.png
+11_锡林郭勒盟.png
+12_阿拉善盟.png
+13_海拉尔.png
+14_满洲里.png
+```
+
+## 文件整理命令示例
+
+生成工具会默认把图片保存在 `.codex/generated_images/...` 随机文件名中。需要复制到该省份专属目录并重命名，不要复制到当前文件夹根目录。
+
+```bash
+mkdir -p province_handdrawn
+
+cp "生成图路径A.png" "province_handdrawn/00_省份总览.png"
+cp "生成图路径B.png" "province_handdrawn/01_省会.png"
+
+zip -q -r province_handdrawn.zip province_handdrawn
+```
+
+如果 ZIP 已存在，增量更新：
+
+```bash
+zip -q -u province_handdrawn.zip "province_handdrawn/13_补充城市.png"
 ```
 
 ## Telegram 发送规则
 
-项目内已有发送图片到 Telegram 的脚本：
+当用户要求“Telegram 发我”“发到 Telegram”“tg 发我”时，按以下规则执行：
 
-```powershell
-tools/send-telegram-image.ps1
+1. 先确认或获取 bot token 和 chat_id。token 属于敏感信息，后续日志和回复里不要复述完整 token。
+2. 如果 bot 还没有和用户建立私聊，让用户先给 bot 发一句话，再用 `getUpdates` 获取 chat_id。
+3. 默认逐张发送省份目录里的 PNG 图片，而不是只发送 ZIP。每张图片 caption 使用文件名去掉 `.png` 后的名称，例如 `00_甘肃省总览`。
+4. 图片全部发送完成后，再单独发送小红书配文正文。不要只把配文放进 ZIP。
+5. Telegram 默认不发送 ZIP；ZIP 只在本地归档，或用户明确要求“发送压缩包 / 发 ZIP”时才通过 Telegram 发送。
+6. 用户说“Telegram 发送”“Telegram 发我”“tg 发我”但没有明确提 ZIP 时，只发送 PNG 原图和小红书文案正文，不要附带压缩包。
+7. 如果用户明确要求发送 ZIP，注意 Telegram Bot API 上传大小限制；超限时再拆分 ZIP，但拆分 ZIP 不能替代图片和文案正文的默认发送。
+
+示例：
+
+```bash
+TG_TOKEN="你的 bot token"
+CHAT_ID="你的 chat_id"
+
+for f in province_handdrawn/*.png; do
+  base=$(basename "$f" .png)
+  curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendPhoto" \
+    -F chat_id="$CHAT_ID" \
+    -F photo=@"$f" \
+    -F caption="$base"
+done
+
+curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+  -d chat_id="$CHAT_ID" \
+  --data-urlencode text@province_xiaohongshu.txt
 ```
 
-当用户要求“发送到 Telegram”或“把这张图片发到 Telegram”时，优先使用该脚本发送本地图片，不要重新实现接口调用。
+## 质量检查清单
 
-脚本参数：
+每张图生成后检查：
 
-```powershell
-.\tools\send-telegram-image.ps1 `
-  -ImagePath "C:\Users\vip10\Documents\地理\全国省份手绘地图\北京市\images\01-北京市总图-v3-中轴修正版.png" `
-  -Caption "北京市｜山环水抱，中轴古都"
+- 是否符合羊皮纸复古地图风格
+- 标题是否为目标省份 / 城市
+- 是否有明显跑题地貌
+- 城市 / 地区分图是否先查过地图，并按真实河流、湖泊、山脉、海岸、老城、新城、交通和地标相对方位组织画面
+- 是否保留边框、指南针、底部景窗
+- 底部 5-6 个特有图案 / 景窗是否都有简短中文介绍，不能只有图案或标题
+- 地标是否基本合理
+- 画面是否无水印
+- 中文小字是否可接受
+
+注意：AI 图像模型生成中文小标签时，可能出现笔画不准或局部乱码。需要对外发布时，建议后续做一轮文字修正版，或在 PS / 画图工具中手动覆盖关键文字。
+
+## 小红书配文模板
+
+配文末尾必须添加话题标签。话题建议 8-12 个，包含：
+
+- 省份名 / 省份短名，例如 `#内蒙古`、`#河北`
+- 手绘地图主题，例如 `#手绘地图`、`#地图插画`、`#地理图鉴`
+- 文旅与旅行主题，例如 `#旅行地图`、`#城市旅行`、`#文旅海报`
+- 地理认知主题，例如 `#中国地理`、`#省份地图`、`#人文地理`
+- 该省代表性地貌或文化关键词，例如 `#草原`、`#太行山`、`#长城`、`#黄河`
+
+话题单独成段，放在正文最后，不要夹在段落中间。
+
+```text
+把{省份}画成一张立体手绘地图，才发现它的地理性格特别{关键词}。
+
+{地貌段落1}
+
+{城市与地标段落}
+
+{省份}的美，不只是“{常见印象}”，而是{地理元素1}、{地理元素2}、{地理元素3}、{地理元素4}共同塑造了这片土地。
+
+一半是{意象A}。
+一半是{意象B}。
+
+如果每个省都做成这样的手绘地理图，你最想先看哪个省？
+
+{省份短名}：{八到十二字总结语}。
+
+# {省份短名} #手绘地图 #地图插画 #地理图鉴 #中国地理 #省份地图 #旅行地图 #文旅海报 #{代表性地貌1} #{代表性地貌2}
 ```
 
-脚本默认读取以下环境变量：
+内蒙古示例：
 
-```powershell
-$env:TELEGRAM_BOT_TOKEN
-$env:TELEGRAM_CHAT_ID
+```text
+把内蒙古画成一张立体手绘地图，才发现它的地理性格特别辽阔。
+
+大兴安岭撑起东部林海，呼伦贝尔草原铺开无边绿意，锡林郭勒草原延展成风吹草低的北疆长卷。往西走，阴山与河套平原相依，黄河在鄂尔多斯绕出壮阔弯道，阿拉善的戈壁、沙漠与胡杨林又把画面推向苍茫深处。
+
+呼和浩特有青城古韵，包头有草原钢城的筋骨，呼伦贝尔有草原、湿地与边城，满洲里有国门和异域风情，海拉尔是通向草原深处的门户。额济纳的胡杨、响沙湾的沙海、阿尔山的森林与火山，也都藏着内蒙古不同的地理表情。
+
+内蒙古的美，不只是“草原很大”，而是森林、草原、沙漠、黄河、边境、湖泊共同塑造了这片土地。
+
+一半是草原长风。
+一半是大漠星河。
+
+如果每个省都做成这样的手绘地理图，你最想先看哪个省？
+
+内蒙古：草原长卷，北疆万里。
+
+#内蒙古 #手绘地图 #地图插画 #地理图鉴 #中国地理 #省份地图 #旅行地图 #文旅海报 #草原 #大兴安岭 #黄河 #北疆
 ```
 
-如果环境变量缺失，先提示用户在本机 PowerShell 中设置，不要让用户把 token 明文发到对话里：
+## 易漏点
 
-```powershell
-$env:TELEGRAM_BOT_TOKEN="..."
-$env:TELEGRAM_CHAT_ID="..."
-```
-
-安全要求：
-
-- 不要把 Telegram bot token、chat id、接口响应中的敏感信息写入仓库。
-- 不要把 token 写进 `Agents.md`、脚本、提交信息或日志说明。
-- 发送前必须确认图片路径存在。
-- 发送成功后只简要告知用户已发送，并说明发送的图片文件名。
+- 不要只生成地级市，必须先生成省级总览图。
+- 县级市或区如果旅行认知很强，需要额外补图。
+- 行政区和旅游区不是一回事，需要分别判断。
+- 生成后要复制到各自省份目录或合集目录，不能只留在 `.codex/generated_images`。
+- 不要把 PNG 图片平铺到当前文件夹根目录；根目录只保留说明文件、ZIP、必要文案等非图片交付物。
+- ZIP 要在补图后同步更新。
+- 发布文案要突出地理性格，不要只罗列景点。
+- 小红书配文末尾必须带话题标签，优先覆盖省份、手绘地图、地理、文旅和代表性地貌关键词。
