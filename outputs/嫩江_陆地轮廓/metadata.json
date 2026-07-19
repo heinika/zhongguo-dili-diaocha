@@ -1,0 +1,26 @@
+{
+  "source": "/mnt/c/Users/chenlj34/AppData/Local/Temp/codex-clipboard-50b3fbad-5f17-4409-b156-eb8b8dc69032.png",
+  "width": 2160,
+  "height": 3840,
+  "land_pixels": 783408,
+  "bounds": {
+    "minX": 790,
+    "minY": 1109,
+    "maxX": 1940,
+    "maxY": 2866,
+    "area": 783408
+  },
+  "crop_bounds": {
+    "minX": 766,
+    "minY": 1085,
+    "maxX": 1964,
+    "maxY": 2890
+  },
+  "outputs": [
+    "outputs/嫩江_陆地轮廓/land_mask_no_real_water.png",
+    "outputs/嫩江_陆地轮廓/land_mask_no_real_water_cropped.png",
+    "outputs/嫩江_陆地轮廓/land_outline_no_real_water_cropped.png",
+    "outputs/嫩江_陆地轮廓/land_outline_no_real_water_preview.png",
+    "outputs/嫩江_陆地轮廓/land_outline_no_real_water.svg"
+  ]
+}

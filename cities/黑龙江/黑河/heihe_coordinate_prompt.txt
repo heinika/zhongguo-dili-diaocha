@@ -1,0 +1,46 @@
+Use case: style-transfer + coordinate-locked illustrated map poster
+Asset type: hand-drawn vintage travel-map poster
+Primary request: Generate a hand-drawn vintage Heihe City poster based on the supplied sample map. The sample map is the authoritative spatial skeleton. Preserve the external outline and required orange labels; do not freely redesign the city shape.
+
+Authoritative canvas and layout:
+- Reference canvas is 655 x 1212 px, portrait.
+- Preserve the sample layout: a tall, irregular Heihe city silhouette occupies the central vertical column, extending from the northern tip near y≈100 down to the southern body near y≈1120. The outline is long north-south, with a narrow upper neck, a broad central body, and a southwest/south body containing the lower labels.
+- The external outline, river/water/terrain structure, and orange labels must follow the sample coordinate system. Do not recenter, crop, smooth, or reshape the map into a decorative island.
+
+External outline geometry:
+- Overall map body: keep a long vertical Heihe outline roughly within x≈90-610 and y≈100-1160, with the northern section narrow and the middle/southern section wider.
+- North/top: the top section is a narrow, elongated pink landform with a small rounded northeastern cap around x≈455,y≈120 and a tapering western edge. It contains the black grouse nature reserve label around the upper-middle.
+- Upper-middle: around y≈290-410, the map widens slightly around the labels 黑嘴松鸡自然保护区, 北部新能源, and 多宝山铜矿. Preserve the vertical mining/new-energy cluster on the upper body.
+- Central body: from y≈480 to y≈760, the silhouette broadens into a yellow/light central block on the right and a purple-pink block on the left. Keep 二道坎银矿 and 永新金矿 in this central/right area.
+- Lower-middle: around y≈800-950, the map extends southwest and southeast, with 墨尔根机场 on the left-lower blue area. Keep this airport label in the lower-left body, not near the top.
+- Southwest/lower-left: preserve the separate southwest lobe containing 策荣斯村 around x≈115,y≈1002. It should remain attached to the main lower map area but visually protrude to the left.
+- Bottom/south: preserve the broad lower body and bottom label 北大荒知青三分公司 around x≈250,y≈1123. Do not taper the bottom into a point; it should stay as a wide lower landform.
+- Overall silhouette rule: keep the sample's administrative-like outer contour, with irregular lobes and narrow/ wide transitions. Do not smooth into a symmetrical leaf, island, or strip.
+
+Coordinate-locked orange labels:
+Place each orange rounded label at the following center coordinates on the 655x1212 canvas. Keep these positions as close as possible; do not redistribute them for visual balance.
+1. 黑嘴松鸡自然保护区: center (394,309), upper-north body.
+2. 北部新能源: center (414,368), upper-middle/east of the northern cluster.
+3. 多宝山铜矿: center (372,396), upper-middle mining cluster.
+4. 二道坎银矿: center (357,621), central/right mining area.
+5. 永新金矿: center (357,689), central/right mining area below 二道坎银矿.
+6. 墨尔根机场: center (204,901), lower-left airport area.
+7. 策荣斯村: center (115,1002), southwest/lower-left lobe.
+8. 北大荒知青三分公司: center (250,1123), southern/bottom body.
+
+Do not include external route direction labels:
+- Exclude 至黑河 and any other outside direction arrows or highway/route labels.
+- Do not include railway tracks or dense road networks.
+
+Style:
+- Antique parchment background, thin Chinese decorative border, large black brush title “黑河” on the left/top area, subtitle “界江・矿脉・林海”.
+- Hand-drawn vintage atlas illustration, ink linework, watercolor washes, sepia outlines, muted natural colors, small pictorial landmarks.
+- Turn sample-map elements into pictorial symbols: black grouse/nature reserve, wind/solar new energy, copper/silver/gold mines, airport, village, Beidahuang/educated-youth farm memory.
+- Keep the map clean: no administrative subdivision labels, no township/village base-map names, no dense grid, no railway or highway direction labels unless explicitly required.
+
+Composition constraints:
+- The output can be more illustrated and less flat than the reference, but the external contour and label anchors must match the coordinate layout.
+- Do not add side inset panels or bottom vignettes if they interfere with the coordinate-locked map. Priority is accurate map and labels.
+- Chinese text must be short and legible. Avoid invented text, incorrect extra labels, watermark, photorealism, and modern UI.
+
+Output: polished 9:16 PNG poster, hand-drawn style, with coordinate-locked Heihe outline and required labels.

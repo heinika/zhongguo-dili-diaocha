@@ -9,6 +9,7 @@
 - 省级总览图 1 张
 - 地级市 / 自治州 / 盟等主要行政区分图
 - 必要时补充强旅游认知城市或区域
+- 所有图片都要生成高清图，优先使用可用的最高分辨率或高清导出选项，避免只保留低清预览图
 - 图片只保存到各自省份目录或合集子文件夹，不要平铺到当前文件夹根目录
 - ZIP 压缩包方便转发
 - 可选生成小红书配文，配文末尾必须带小红书话题标签
@@ -94,6 +95,35 @@
 
 这样不容易漏掉“省份总览图”，也能让整套图片顺序更符合城市规模认知。
 
+## 图片生成通道与 ChatGPT 网页备用流程
+
+默认优先使用 Codex 内置 `imagegen` 技能生成图片。遇到以下情况时，可以改用已登录的 ChatGPT 网页完成生图，并把原始图片下载回本地：
+
+- 内置 `imagegen` 连续出现网络错误或第三方 Provider 兼容问题。
+- 模型已经完成生图，但 Codex 客户端没有显示图片。
+- 用户明确要求“改到聊天里生成图片”。
+
+执行规则：
+
+1. 使用 Codex 的应用内浏览器控制能力打开或复用 `https://chatgpt.com/`，优先使用用户已经登录的会话。若尚未登录，让用户自行登录后再继续。
+2. 不要索取 `OPENAI_API_KEY`，不要读取、导出或记录浏览器 Cookie、访问令牌和带签名的图片 URL；网页登录态只用于当前浏览器会话。
+3. 在 ChatGPT 对话中提交完整生图提示词。一次只处理一张图，明确画幅、构图、风格、文字限制和“高清原图”要求，避免批量任务串图。
+4. 等待页面明确出现生成结果后，通过浏览器的页面资源能力读取当前页资产清单；从本轮新增的图片资源中定位 `/backend-api/estuary/content` 对应的生成图，不要用页面截图代替原图。
+5. 使用页面资源的 `bundle` / 下载能力把目标图片导出到本地临时目录。应按资产 ID 精确下载，不能把缩略图、头像、站点图标或历史图片误当成结果。
+6. 下载后先用本地图像查看工具检查内容、清晰度、比例和裁切。确认无误后，把原始 PNG / WebP 复制到对应省份或城市专属目录并按命名规则重命名；不要把交付图片留在浏览器临时目录。
+7. 检查像素尺寸和文件大小，优先保存网页实际返回的最高分辨率原图。若只有低清预览、构图错误或文字严重不可用，应在聊天中重新生成，不要靠放大截图冒充高清图。
+8. 完成下载后，将生图对话保留为可交付浏览器标签，方便用户回看；随后更新本地 ZIP、清单和配文等交付物。
+
+页面资源下载的逻辑示意：
+
+```text
+打开已登录的 ChatGPT → 提交单张生图提示词 → 等待图片出现
+→ 列出当前页图片资产 → 按本轮文件 ID 选中生成图
+→ bundle 下载原图 → 本地查看与尺寸检查 → 复制进省份目录并重命名
+```
+
+这个流程是内置 `imagegen` 的备用通道，不应绕过用户登录，也不应把浏览器认证信息转移到命令行或项目文件中。
+
 ## 省级总览图 Prompt 模板
 
 将 `{省份}`、`{副标题}`、`{地貌}`、`{行政区列表}`、`{底部景窗}` 替换成目标省份内容。
@@ -102,6 +132,7 @@
 Use case: stylized-concept
 Asset type: illustrated regional travel-map poster
 Primary request: Create one hand-drawn vintage illustrated overview map poster for {省份}, matching the reference style: antique parchment background, ornate Chinese border, large brush calligraphy title, raised cutout regional map silhouette, isometric hand-painted terrain, dense ink-and-watercolor details, sepia outlines, muted natural colors.
+Resolution requirement: Generate a high-resolution final PNG, using the highest available resolution or HD export option. Do not save only a low-resolution preview.
 Subject: {省份} overall map. Large Chinese calligraphy title at top: “{省份}”. Subtitle: “{副标题}”.
 Scene/backdrop: Show the full province shape as a raised illustrated map cutout. Include representative geography: {地貌}. Include cities, rivers, lakes, mountains, plains, forests, farmland, historic sites, railways and local cultural symbols.
 Key regional labels with small plaques: {行政区列表}.
@@ -117,6 +148,7 @@ Style constraints: hand-drawn vintage atlas illustration, detailed watercolor an
 Use case: stylized-concept
 Asset type: illustrated travel-map poster series
 Primary request: Create one hand-drawn vintage travel map poster for {城市或地区}, matching the existing series style: antique parchment background, ornate Chinese border, large brush calligraphy title, dense isometric bird's-eye travel map, ink-and-watercolor, sepia linework, muted natural colors.
+Resolution requirement: Generate a high-resolution final PNG, using the highest available resolution or HD export option. Do not save only a low-resolution preview.
 Subject: {城市或地区}, {省份}. Large Chinese title at top: “{城市或地区}”. Subtitle: “{副标题}”.
 Map basis: Before drawing, use the real city map as the spatial skeleton. Show the correct relative positions of major rivers, lakes, mountains, coastline, old city, new district, transport corridors, and key landmarks. Preserve important map relationships from the searched map; do not freely scatter landmarks.
 Scene/backdrop: {城市或地区的核心地理与城市气质}. Include representative terrain, rivers, city blocks, railways, landmarks, cultural architecture, local agriculture or ecology.
@@ -184,18 +216,19 @@ zip -q -u province_handdrawn.zip "province_handdrawn/13_补充城市.png"
 当用户要求“Telegram 发我”“发到 Telegram”“tg 发我”时，按以下规则执行：
 
 1. 先确认或获取 bot token 和 chat_id。token 属于敏感信息，后续日志和回复里不要复述完整 token。
-2. 如果 bot 还没有和用户建立私聊，让用户先给 bot 发一句话，再用 `getUpdates` 获取 chat_id。
-3. 默认逐张发送省份目录里的 PNG 图片，而不是只发送 ZIP。每张图片 caption 使用文件名去掉 `.png` 后的名称，例如 `00_甘肃省总览`。
-4. 图片全部发送完成后，再单独发送小红书配文正文。不要只把配文放进 ZIP。
-5. Telegram 默认不发送 ZIP；ZIP 只在本地归档，或用户明确要求“发送压缩包 / 发 ZIP”时才通过 Telegram 发送。
-6. 用户说“Telegram 发送”“Telegram 发我”“tg 发我”但没有明确提 ZIP 时，只发送 PNG 原图和小红书文案正文，不要附带压缩包。
-7. 如果用户明确要求发送 ZIP，注意 Telegram Bot API 上传大小限制；超限时再拆分 ZIP，但拆分 ZIP 不能替代图片和文案正文的默认发送。
+2. 不要把真实 bot token 或 chat_id 写进 `AGENTS.md`、脚本、提交记录或项目文件；优先使用本机环境变量 `TG_TOKEN` 和 `CHAT_ID`。
+3. 如果 bot 还没有和用户建立私聊，让用户先给 bot 发一句话，再用 `getUpdates` 获取 chat_id。
+4. 默认逐张发送省份目录里的 PNG 图片，而不是只发送 ZIP。每张图片 caption 使用文件名去掉 `.png` 后的名称，例如 `00_甘肃省总览`。
+5. 图片全部发送完成后，再单独发送小红书配文正文。不要只把配文放进 ZIP。
+6. Telegram 默认不发送 ZIP；ZIP 只在本地归档，或用户明确要求“发送压缩包 / 发 ZIP”时才通过 Telegram 发送。
+7. 用户说“Telegram 发送”“Telegram 发我”“tg 发我”但没有明确提 ZIP 时，只发送 PNG 原图和小红书文案正文，不要附带压缩包。
+8. 如果用户明确要求发送 ZIP，注意 Telegram Bot API 上传大小限制；超限时再拆分 ZIP，但拆分 ZIP 不能替代图片和文案正文的默认发送。
 
 示例：
 
 ```bash
-TG_TOKEN="你的 bot token"
-CHAT_ID="你的 chat_id"
+: "${TG_TOKEN:?请先设置 TG_TOKEN 环境变量}"
+: "${CHAT_ID:?请先设置 CHAT_ID 环境变量}"
 
 for f in province_handdrawn/*.png; do
   base=$(basename "$f" .png)
@@ -221,6 +254,7 @@ curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
 - 是否保留边框、指南针、底部景窗
 - 底部 5-6 个特有图案 / 景窗是否都有简短中文介绍，不能只有图案或标题
 - 地标是否基本合理
+- 是否为高清 PNG 原图，不能只是低清预览图或截图
 - 画面是否无水印
 - 中文小字是否可接受
 
@@ -284,6 +318,7 @@ curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
 - 县级市或区如果旅行认知很强，需要额外补图。
 - 行政区和旅游区不是一回事，需要分别判断。
 - 生成后要复制到各自省份目录或合集目录，不能只留在 `.codex/generated_images`。
+- 生成和归档都要使用高清 PNG 原图，不能只保存低清预览图。
 - 不要把 PNG 图片平铺到当前文件夹根目录；根目录只保留说明文件、ZIP、必要文案等非图片交付物。
 - ZIP 要在补图后同步更新。
 - 发布文案要突出地理性格，不要只罗列景点。
