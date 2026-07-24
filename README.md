@@ -4,17 +4,16 @@
 
 ## 图片总览
 
-当前 README 共展示 **253 张已生成图片**。所有画面均使用轻量缩略图，点击后可打开仓库中的 PNG、JPEG、WebP 或 GIF 原图。
+仓库共有 **253 张已生成图片**，当前 README 精选展示 **194 张**；同一省份、城市或地区只保留一个最佳版本。所有画面均使用轻量缩略图，点击后可打开仓库中的 PNG、JPEG、WebP 或 GIF 原图。
 
-> 本画廊由 `tools/build_readme_gallery.py` 根据 Git 已跟踪图片自动生成；新增图片后重新运行脚本即可更新分类和缩略图。
+> 已隐藏 59 个旧版、备份、镜像重复或内容误归类入口；原始文件仍完整保留。本画廊由 `tools/build_readme_gallery.py` 根据已审核选择规则自动生成。
 
 ## 分类导航
 
 | 分类 | 省份或系列数 | 图片数 |
 | --- | ---: | ---: |
-| [全国省份手绘地图](#%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE) | 34 | 196 |
+| [全国省份手绘地图](#%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE) | 31 | 147 |
 | [早期成套系列](#%E6%97%A9%E6%9C%9F%E6%88%90%E5%A5%97%E7%B3%BB%E5%88%97) | 3 | 47 |
-| [历史备份](#%E5%8E%86%E5%8F%B2%E5%A4%87%E4%BB%BD) | 10 | 10 |
 
 ## 项目内容
 
@@ -28,48 +27,16 @@
 ## 全国省份手绘地图
 
 <details>
-<summary><strong>北京市</strong> · 28 张</summary>
+<summary><strong>北京市</strong> · 18 张</summary>
 
-<h4>主图集 · 28 张</h4>
+<h4>主图集 · 18 张</h4>
 
 <table>
   <tr>
     <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v2.png" title="全国省份手绘地图/北京市/images/01-北京市总图-v2.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v2.webp" width="180" alt="01-北京市总图-v2" loading="lazy">
-        <br><sub>01-北京市总图-v2</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v3-%E4%B8%AD%E8%BD%B4%E4%BF%AE%E6%AD%A3%E7%89%88.png" title="全国省份手绘地图/北京市/images/01-北京市总图-v3-中轴修正版.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v3-%E4%B8%AD%E8%BD%B4%E4%BF%AE%E6%AD%A3%E7%89%88.webp" width="180" alt="01-北京市总图-v3-中轴修正版" loading="lazy">
-        <br><sub>01-北京市总图-v3-中轴修正版</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v4-%E4%B8%AD%E8%BD%B4%E9%B2%9C%E6%B4%BB%E7%89%88.png" title="全国省份手绘地图/北京市/images/01-北京市总图-v4-中轴鲜活版.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v4-%E4%B8%AD%E8%BD%B4%E9%B2%9C%E6%B4%BB%E7%89%88.webp" width="180" alt="01-北京市总图-v4-中轴鲜活版" loading="lazy">
-        <br><sub>01-北京市总图-v4-中轴鲜活版</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v5-%E8%AF%84%E4%BB%B7%E4%BF%AE%E6%AD%A3%E7%89%88.png" title="全国省份手绘地图/北京市/images/01-北京市总图-v5-评价修正版.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-v5-%E8%AF%84%E4%BB%B7%E4%BF%AE%E6%AD%A3%E7%89%88.webp" width="180" alt="01-北京市总图-v5-评价修正版" loading="lazy">
         <br><sub>01-北京市总图-v5-评价修正版</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-%E6%97%A7%E7%89%88%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/北京市/images/01-北京市总图-旧版备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE-%E6%97%A7%E7%89%88%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-北京市总图-旧版备份" loading="lazy">
-        <br><sub>01-北京市总图-旧版备份</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/北京市/images/01-北京市总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/01-%E5%8C%97%E4%BA%AC%E5%B8%82%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-北京市总图" loading="lazy">
-        <br><sub>01-北京市总图</sub>
       </a>
     </td>
     <td width="25%" align="center">
@@ -84,26 +51,6 @@
         <br><sub>03-西城区</sub>
       </a>
     </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v2.png" title="全国省份手绘地图/北京市/images/04-朝阳区-v2.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v2.webp" width="180" alt="04-朝阳区-v2" loading="lazy">
-        <br><sub>04-朝阳区-v2</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v3.png" title="全国省份手绘地图/北京市/images/04-朝阳区-v3.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v3.webp" width="180" alt="04-朝阳区-v3" loading="lazy">
-        <br><sub>04-朝阳区-v3</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v4.png" title="全国省份手绘地图/北京市/images/04-朝阳区-v4.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v4.webp" width="180" alt="04-朝阳区-v4" loading="lazy">
-        <br><sub>04-朝阳区-v4</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v5.png" title="全国省份手绘地图/北京市/images/04-朝阳区-v5.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA-v5.webp" width="180" alt="04-朝阳区-v5" loading="lazy">
@@ -112,12 +59,6 @@
     </td>
   </tr>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/04-朝阳区.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/04-%E6%9C%9D%E9%98%B3%E5%8C%BA.webp" width="180" alt="04-朝阳区" loading="lazy">
-        <br><sub>04-朝阳区</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/05-%E4%B8%B0%E5%8F%B0%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/05-丰台区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/05-%E4%B8%B0%E5%8F%B0%E5%8C%BA.webp" width="180" alt="05-丰台区" loading="lazy">
@@ -136,14 +77,14 @@
         <br><sub>07-海淀区</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/08-%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/08-门头沟区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/08-%E9%97%A8%E5%A4%B4%E6%B2%9F%E5%8C%BA.webp" width="180" alt="08-门头沟区" loading="lazy">
         <br><sub>08-门头沟区</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/09-%E6%88%BF%E5%B1%B1%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/09-房山区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/09-%E6%88%BF%E5%B1%B1%E5%8C%BA.webp" width="180" alt="09-房山区" loading="lazy">
@@ -157,14 +98,6 @@
       </a>
     </td>
     <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/10-%E9%80%9A%E5%B7%9E%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/10-通州区.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/10-%E9%80%9A%E5%B7%9E%E5%8C%BA.webp" width="180" alt="10-通州区" loading="lazy">
-        <br><sub>10-通州区</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/11-%E9%A1%BA%E4%B9%89%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/11-顺义区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/11-%E9%A1%BA%E4%B9%89%E5%8C%BA.webp" width="180" alt="11-顺义区" loading="lazy">
         <br><sub>11-顺义区</sub>
@@ -176,6 +109,8 @@
         <br><sub>12-昌平区</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/13-%E5%A4%A7%E5%85%B4%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/13-大兴区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/13-%E5%A4%A7%E5%85%B4%E5%8C%BA.webp" width="180" alt="13-大兴区" loading="lazy">
@@ -188,8 +123,6 @@
         <br><sub>14-怀柔区</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/15-%E5%B9%B3%E8%B0%B7%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/15-平谷区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/15-%E5%B9%B3%E8%B0%B7%E5%8C%BA.webp" width="180" alt="15-平谷区" loading="lazy">
@@ -202,6 +135,8 @@
         <br><sub>16-密云区</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/17-%E5%BB%B6%E5%BA%86%E5%8C%BA.png" title="全国省份手绘地图/北京市/images/17-延庆区.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8C%97%E4%BA%AC%E5%B8%82/images/17-%E5%BB%B6%E5%BA%86%E5%8C%BA.webp" width="180" alt="17-延庆区" loading="lazy">
@@ -238,24 +173,6 @@
 </details>
 
 <details>
-<summary><strong>河北省</strong> · 1 张</summary>
-
-<h4>主图集 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B2%B3%E5%8C%97%E7%9C%81/images/01-%E6%B2%B3%E5%8C%97%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/河北省/images/01-河北省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B2%B3%E5%8C%97%E7%9C%81/images/01-%E6%B2%B3%E5%8C%97%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-河北省总图" loading="lazy">
-        <br><sub>01-河北省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
 <summary><strong>山西省</strong> · 1 张</summary>
 
 <h4>主图集 · 1 张</h4>
@@ -266,24 +183,6 @@
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%B1%B1%E8%A5%BF%E7%9C%81/images/01-%E5%B1%B1%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/山西省/images/01-山西省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%B1%B1%E8%A5%BF%E7%9C%81/images/01-%E5%B1%B1%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-山西省总图" loading="lazy">
         <br><sub>01-山西省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>内蒙古自治区</strong> · 1 张</summary>
-
-<h4>主图集 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/内蒙古自治区/images/01-内蒙古自治区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-内蒙古自治区总图" loading="lazy">
-        <br><sub>01-内蒙古自治区总图</sub>
       </a>
     </td>
   </tr>
@@ -328,9 +227,9 @@
 </details>
 
 <details>
-<summary><strong>黑龙江省</strong> · 14 张</summary>
+<summary><strong>黑龙江省</strong> · 13 张</summary>
 
-<h4>主图集 · 14 张</h4>
+<h4>主图集 · 13 张</h4>
 
 <table>
   <tr>
@@ -338,12 +237,6 @@
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/01-%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/黑龙江省/images/01-黑龙江省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/01-%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-黑龙江省总图" loading="lazy">
         <br><sub>01-黑龙江省总图</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/02-%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD%E5%9C%B0%E5%8C%BA.png" title="全国省份手绘地图/黑龙江省/images/02-大兴安岭地区.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/02-%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD%E5%9C%B0%E5%8C%BA.webp" width="180" alt="02-大兴安岭地区" loading="lazy">
-        <br><sub>02-大兴安岭地区</sub>
       </a>
     </td>
     <td width="25%" align="center">
@@ -358,14 +251,14 @@
         <br><sub>04-伊春市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/05-%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/05-齐齐哈尔市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/05-%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82.webp" width="180" alt="05-齐齐哈尔市" loading="lazy">
         <br><sub>05-齐齐哈尔市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/06-%E9%B9%A4%E5%B2%97%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/06-鹤岗市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/06-%E9%B9%A4%E5%B2%97%E5%B8%82.webp" width="180" alt="06-鹤岗市" loading="lazy">
@@ -384,14 +277,14 @@
         <br><sub>08-哈尔滨市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/09-%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/09-佳木斯市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/09-%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%B8%82.webp" width="180" alt="09-佳木斯市" loading="lazy">
         <br><sub>09-佳木斯市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/10-%E5%A4%A7%E5%BA%86%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/10-大庆市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/10-%E5%A4%A7%E5%BA%86%E5%B8%82.webp" width="180" alt="10-大庆市" loading="lazy">
@@ -410,14 +303,14 @@
         <br><sub>12-七台河市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/13-%E9%B8%A1%E8%A5%BF%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/13-鸡西市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/13-%E9%B8%A1%E8%A5%BF%E5%B8%82.webp" width="180" alt="13-鸡西市" loading="lazy">
         <br><sub>13-鸡西市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/14-%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82.png" title="全国省份手绘地图/黑龙江省/images/14-牡丹江市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81/images/14-%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82.webp" width="180" alt="14-牡丹江市" loading="lazy">
@@ -448,9 +341,9 @@
 </details>
 
 <details>
-<summary><strong>江苏省</strong> · 15 张</summary>
+<summary><strong>江苏省</strong> · 14 张</summary>
 
-<h4>主图集 · 15 张</h4>
+<h4>主图集 · 14 张</h4>
 
 <table>
   <tr>
@@ -458,12 +351,6 @@
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/01-%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%80%BB%E5%9B%BE-v2.png" title="全国省份手绘地图/江苏省/images/01-江苏省总图-v2.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/01-%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%80%BB%E5%9B%BE-v2.webp" width="180" alt="01-江苏省总图-v2" loading="lazy">
         <br><sub>01-江苏省总图-v2</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/01-%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/江苏省/images/01-江苏省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/01-%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-江苏省总图" loading="lazy">
-        <br><sub>01-江苏省总图</sub>
       </a>
     </td>
     <td width="25%" align="center">
@@ -478,14 +365,14 @@
         <br><sub>03-无锡市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/04-%E5%BE%90%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/04-徐州市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/04-%E5%BE%90%E5%B7%9E%E5%B8%82.webp" width="180" alt="04-徐州市" loading="lazy">
         <br><sub>04-徐州市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/05-%E5%B8%B8%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/05-常州市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/05-%E5%B8%B8%E5%B7%9E%E5%B8%82.webp" width="180" alt="05-常州市" loading="lazy">
@@ -504,14 +391,14 @@
         <br><sub>07-南通市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/08-%E8%BF%9E%E4%BA%91%E6%B8%AF%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/08-连云港市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/08-%E8%BF%9E%E4%BA%91%E6%B8%AF%E5%B8%82.webp" width="180" alt="08-连云港市" loading="lazy">
         <br><sub>08-连云港市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/09-%E6%B7%AE%E5%AE%89%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/09-淮安市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/09-%E6%B7%AE%E5%AE%89%E5%B8%82.webp" width="180" alt="09-淮安市" loading="lazy">
@@ -530,14 +417,14 @@
         <br><sub>11-扬州市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/12-%E9%95%87%E6%B1%9F%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/12-镇江市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/12-%E9%95%87%E6%B1%9F%E5%B8%82.webp" width="180" alt="12-镇江市" loading="lazy">
         <br><sub>12-镇江市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/13-%E6%B3%B0%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/江苏省/images/13-泰州市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B1%9F%E8%8B%8F%E7%9C%81/images/13-%E6%B3%B0%E5%B7%9E%E5%B8%82.webp" width="180" alt="13-泰州市" loading="lazy">
@@ -636,9 +523,9 @@
 </details>
 
 <details>
-<summary><strong>福建省</strong> · 21 张</summary>
+<summary><strong>福建省</strong> · 10 张</summary>
 
-<h4>主图集 · 11 张</h4>
+<h4>主图集 · 10 张</h4>
 
 <table>
   <tr>
@@ -669,12 +556,6 @@
   </tr>
   <tr>
     <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/04-%E6%B3%89%E5%B7%9E%E5%B8%82_%E6%9C%AA%E5%90%AB%E5%BE%B7%E5%8C%96%E7%99%BD%E7%93%B7%E5%A4%87%E4%BB%BD_20260706_180144.png" title="全国省份手绘地图/福建省/images/04-泉州市_未含德化白瓷备份_20260706_180144.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/04-%E6%B3%89%E5%B7%9E%E5%B8%82_%E6%9C%AA%E5%90%AB%E5%BE%B7%E5%8C%96%E7%99%BD%E7%93%B7%E5%A4%87%E4%BB%BD_20260706_180144.webp" width="180" alt="04-泉州市_未含德化白瓷备份_20260706_180144" loading="lazy">
-        <br><sub>04-泉州市_未含德化白瓷备份_20260706_180144</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/05-%E6%BC%B3%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/福建省/images/05-漳州市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/05-%E6%BC%B3%E5%B7%9E%E5%B8%82.webp" width="180" alt="05-漳州市" loading="lazy">
         <br><sub>05-漳州市</sub>
@@ -692,14 +573,14 @@
         <br><sub>07-三明市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/08-%E5%8D%97%E5%B9%B3%E5%B8%82.png" title="全国省份手绘地图/福建省/images/08-南平市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/08-%E5%8D%97%E5%B9%B3%E5%B8%82.webp" width="180" alt="08-南平市" loading="lazy">
         <br><sub>08-南平市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/09-%E9%BE%99%E5%B2%A9%E5%B8%82.png" title="全国省份手绘地图/福建省/images/09-龙岩市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/09-%E9%BE%99%E5%B2%A9%E5%B8%82.webp" width="180" alt="09-龙岩市" loading="lazy">
@@ -709,77 +590,6 @@
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/10-%E5%AE%81%E5%BE%B7%E5%B8%82.png" title="全国省份手绘地图/福建省/images/10-宁德市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E7%9C%81/images/10-%E5%AE%81%E5%BE%B7%E5%B8%82.webp" width="180" alt="10-宁德市" loading="lazy">
-        <br><sub>10-宁德市</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<h4>生成图归档 · 10 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/01-%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/福建手绘地图生成图/01-福建省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/01-%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-福建省总图" loading="lazy">
-        <br><sub>01-福建省总图</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/02-%E7%A6%8F%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/02-福州市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/02-%E7%A6%8F%E5%B7%9E%E5%B8%82.webp" width="180" alt="02-福州市" loading="lazy">
-        <br><sub>02-福州市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/03-%E5%8E%A6%E9%97%A8%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/03-厦门市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/03-%E5%8E%A6%E9%97%A8%E5%B8%82.webp" width="180" alt="03-厦门市" loading="lazy">
-        <br><sub>03-厦门市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/04-%E6%B3%89%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/04-泉州市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/04-%E6%B3%89%E5%B7%9E%E5%B8%82.webp" width="180" alt="04-泉州市" loading="lazy">
-        <br><sub>04-泉州市</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/05-%E6%BC%B3%E5%B7%9E%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/05-漳州市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/05-%E6%BC%B3%E5%B7%9E%E5%B8%82.webp" width="180" alt="05-漳州市" loading="lazy">
-        <br><sub>05-漳州市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/06-%E8%8E%86%E7%94%B0%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/06-莆田市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/06-%E8%8E%86%E7%94%B0%E5%B8%82.webp" width="180" alt="06-莆田市" loading="lazy">
-        <br><sub>06-莆田市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/07-%E4%B8%89%E6%98%8E%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/07-三明市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/07-%E4%B8%89%E6%98%8E%E5%B8%82.webp" width="180" alt="07-三明市" loading="lazy">
-        <br><sub>07-三明市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/08-%E5%8D%97%E5%B9%B3%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/08-南平市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/08-%E5%8D%97%E5%B9%B3%E5%B8%82.webp" width="180" alt="08-南平市" loading="lazy">
-        <br><sub>08-南平市</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/09-%E9%BE%99%E5%B2%A9%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/09-龙岩市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/09-%E9%BE%99%E5%B2%A9%E5%B8%82.webp" width="180" alt="09-龙岩市" loading="lazy">
-        <br><sub>09-龙岩市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/10-%E5%AE%81%E5%BE%B7%E5%B8%82.png" title="全国省份手绘地图/福建手绘地图生成图/10-宁德市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%A6%8F%E5%BB%BA%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%9B%BE/10-%E5%AE%81%E5%BE%B7%E5%B8%82.webp" width="180" alt="10-宁德市" loading="lazy">
         <br><sub>10-宁德市</sub>
       </a>
     </td>
@@ -887,24 +697,6 @@
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%B1%B1%E4%B8%9C%E7%9C%81/images/12-%E6%B3%B0%E5%AE%89%E5%B8%82.png" title="全国省份手绘地图/山东省/images/12-泰安市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%B1%B1%E4%B8%9C%E7%9C%81/images/12-%E6%B3%B0%E5%AE%89%E5%B8%82.webp" width="180" alt="12-泰安市" loading="lazy">
         <br><sub>12-泰安市</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>河南省</strong> · 1 张</summary>
-
-<h4>主图集 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B2%B3%E5%8D%97%E7%9C%81/images/01-%E6%B2%B3%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/河南省/images/01-河南省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%B2%B3%E5%8D%97%E7%9C%81/images/01-%E6%B2%B3%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-河南省总图" loading="lazy">
-        <br><sub>01-河南省总图</sub>
       </a>
     </td>
   </tr>
@@ -1061,9 +853,9 @@
 </details>
 
 <details>
-<summary><strong>重庆市</strong> · 2 张</summary>
+<summary><strong>重庆市</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
@@ -1071,12 +863,6 @@
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%87%8D%E5%BA%86%E5%B8%82/images/01-%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%BB%E5%9B%BE-%E4%BF%AE%E6%AD%A3%E7%89%88.png" title="全国省份手绘地图/重庆市/images/01-重庆市总图-修正版.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%87%8D%E5%BA%86%E5%B8%82/images/01-%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%BB%E5%9B%BE-%E4%BF%AE%E6%AD%A3%E7%89%88.webp" width="180" alt="01-重庆市总图-修正版" loading="lazy">
         <br><sub>01-重庆市总图-修正版</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%87%8D%E5%BA%86%E5%B8%82/images/01-%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/重庆市/images/01-重庆市总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%87%8D%E5%BA%86%E5%B8%82/images/01-%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-重庆市总图" loading="lazy">
-        <br><sub>01-重庆市总图</sub>
       </a>
     </td>
   </tr>
@@ -1103,18 +889,12 @@
 </details>
 
 <details>
-<summary><strong>贵州省</strong> · 2 张</summary>
+<summary><strong>贵州省</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%B4%B5%E5%B7%9E%E7%9C%81/images/01-%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/贵州省/images/01-贵州省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%B4%B5%E5%B7%9E%E7%9C%81/images/01-%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-贵州省总图-未标注备份" loading="lazy">
-        <br><sub>01-贵州省总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%B4%B5%E5%B7%9E%E7%9C%81/images/01-%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/贵州省/images/01-贵州省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%B4%B5%E5%B7%9E%E7%9C%81/images/01-%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-贵州省总图" loading="lazy">
@@ -1127,18 +907,12 @@
 </details>
 
 <details>
-<summary><strong>云南省</strong> · 18 张</summary>
+<summary><strong>云南省</strong> · 17 张</summary>
 
-<h4>主图集 · 18 张</h4>
+<h4>主图集 · 17 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/云南省/images/01-云南省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-云南省总图-未标注备份" loading="lazy">
-        <br><sub>01-云南省总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/云南省/images/01-云南省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-云南省总图" loading="lazy">
@@ -1157,14 +931,14 @@
         <br><sub>03-西双版纳傣族自治州</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/04-%E5%BE%B7%E5%AE%8F%E5%82%A3%E6%97%8F%E6%99%AF%E9%A2%87%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.png" title="全国省份手绘地图/云南省/images/04-德宏傣族景颇族自治州.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/04-%E5%BE%B7%E5%AE%8F%E5%82%A3%E6%97%8F%E6%99%AF%E9%A2%87%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.webp" width="180" alt="04-德宏傣族景颇族自治州" loading="lazy">
         <br><sub>04-德宏傣族景颇族自治州</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/05-%E6%99%AE%E6%B4%B1%E5%B8%82.png" title="全国省份手绘地图/云南省/images/05-普洱市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/05-%E6%99%AE%E6%B4%B1%E5%B8%82.webp" width="180" alt="05-普洱市" loading="lazy">
@@ -1183,14 +957,14 @@
         <br><sub>07-红河哈尼族彝族自治州</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/08-%E6%96%87%E5%B1%B1%E5%A3%AE%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.png" title="全国省份手绘地图/云南省/images/08-文山壮族苗族自治州.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/08-%E6%96%87%E5%B1%B1%E5%A3%AE%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.webp" width="180" alt="08-文山壮族苗族自治州" loading="lazy">
         <br><sub>08-文山壮族苗族自治州</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/09-%E7%8E%89%E6%BA%AA%E5%B8%82.png" title="全国省份手绘地图/云南省/images/09-玉溪市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/09-%E7%8E%89%E6%BA%AA%E5%B8%82.webp" width="180" alt="09-玉溪市" loading="lazy">
@@ -1209,14 +983,14 @@
         <br><sub>11-楚雄彝族自治州</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/12-%E5%A4%A7%E7%90%86%E7%99%BD%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.png" title="全国省份手绘地图/云南省/images/12-大理白族自治州.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/12-%E5%A4%A7%E7%90%86%E7%99%BD%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.webp" width="180" alt="12-大理白族自治州" loading="lazy">
         <br><sub>12-大理白族自治州</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/13-%E6%9B%B2%E9%9D%96%E5%B8%82.png" title="全国省份手绘地图/云南省/images/13-曲靖市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/13-%E6%9B%B2%E9%9D%96%E5%B8%82.webp" width="180" alt="13-曲靖市" loading="lazy">
@@ -1235,14 +1009,14 @@
         <br><sub>15-丽江市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/16-%E6%80%92%E6%B1%9F%E5%82%88%E5%83%B3%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.png" title="全国省份手绘地图/云南省/images/16-怒江傈僳族自治州.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/16-%E6%80%92%E6%B1%9F%E5%82%88%E5%83%B3%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.webp" width="180" alt="16-怒江傈僳族自治州" loading="lazy">
         <br><sub>16-怒江傈僳族自治州</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/17-%E8%BF%AA%E5%BA%86%E8%97%8F%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.png" title="全国省份手绘地图/云南省/images/17-迪庆藏族自治州.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E4%BA%91%E5%8D%97%E7%9C%81/images/17-%E8%BF%AA%E5%BA%86%E8%97%8F%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E.webp" width="180" alt="17-迪庆藏族自治州" loading="lazy">
@@ -1255,38 +1029,18 @@
 </details>
 
 <details>
-<summary><strong>西藏自治区</strong> · 20 张</summary>
+<summary><strong>西藏自治区</strong> · 8 张</summary>
 
-<h4>主图集 · 11 张</h4>
+<h4>主图集 · 8 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/西藏自治区/images/01-西藏自治区总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-西藏自治区总图-未标注备份" loading="lazy">
-        <br><sub>01-西藏自治区总图-未标注备份</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/西藏自治区/images/01-西藏自治区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-西藏自治区总图" loading="lazy">
-        <br><sub>01-西藏自治区总图</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E5%88%9D%E7%89%88.png" title="全国省份手绘地图/西藏自治区/images/01_西藏自治区_初版.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E5%88%9D%E7%89%88.webp" width="180" alt="01_西藏自治区_初版" loading="lazy">
-        <br><sub>01_西藏自治区_初版</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/02_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E6%A0%87%E7%AD%BE%E4%BF%AE%E6%AD%A3%E7%89%88.png" title="全国省份手绘地图/西藏自治区/images/02_西藏自治区_标签修正版.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/02_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E6%A0%87%E7%AD%BE%E4%BF%AE%E6%AD%A3%E7%89%88.webp" width="180" alt="02_西藏自治区_标签修正版" loading="lazy">
         <br><sub>02_西藏自治区_标签修正版</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/03_%E6%8B%89%E8%90%A8%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/images/03_拉萨市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/03_%E6%8B%89%E8%90%A8%E5%B8%82.webp" width="180" alt="03_拉萨市" loading="lazy">
@@ -1305,14 +1059,14 @@
         <br><sub>05_昌都市</sub>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/06_%E6%9E%97%E8%8A%9D%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/images/06_林芝市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/06_%E6%9E%97%E8%8A%9D%E5%B8%82.webp" width="180" alt="06_林芝市" loading="lazy">
         <br><sub>06_林芝市</sub>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/07_%E5%B1%B1%E5%8D%97%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/images/07_山南市.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/07_%E5%B1%B1%E5%8D%97%E5%B8%82.webp" width="180" alt="07_山南市" loading="lazy">
@@ -1334,86 +1088,15 @@
   </tr>
 </table>
 
-<h4>西藏手绘地图海报_9张 · 9 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/01_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E5%88%9D%E7%89%88.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/01_西藏自治区_初版.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/01_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E5%88%9D%E7%89%88.webp" width="180" alt="01_西藏自治区_初版" loading="lazy">
-        <br><sub>01_西藏自治区_初版</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/02_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E6%A0%87%E7%AD%BE%E4%BF%AE%E6%AD%A3%E7%89%88.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/02_西藏自治区_标签修正版.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/02_%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA_%E6%A0%87%E7%AD%BE%E4%BF%AE%E6%AD%A3%E7%89%88.webp" width="180" alt="02_西藏自治区_标签修正版" loading="lazy">
-        <br><sub>02_西藏自治区_标签修正版</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/03_%E6%8B%89%E8%90%A8%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/03_拉萨市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/03_%E6%8B%89%E8%90%A8%E5%B8%82.webp" width="180" alt="03_拉萨市" loading="lazy">
-        <br><sub>03_拉萨市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/04_%E6%97%A5%E5%96%80%E5%88%99%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/04_日喀则市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/04_%E6%97%A5%E5%96%80%E5%88%99%E5%B8%82.webp" width="180" alt="04_日喀则市" loading="lazy">
-        <br><sub>04_日喀则市</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/05_%E6%98%8C%E9%83%BD%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/05_昌都市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/05_%E6%98%8C%E9%83%BD%E5%B8%82.webp" width="180" alt="05_昌都市" loading="lazy">
-        <br><sub>05_昌都市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/06_%E6%9E%97%E8%8A%9D%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/06_林芝市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/06_%E6%9E%97%E8%8A%9D%E5%B8%82.webp" width="180" alt="06_林芝市" loading="lazy">
-        <br><sub>06_林芝市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/07_%E5%B1%B1%E5%8D%97%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/07_山南市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/07_%E5%B1%B1%E5%8D%97%E5%B8%82.webp" width="180" alt="07_山南市" loading="lazy">
-        <br><sub>07_山南市</sub>
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/08_%E9%82%A3%E6%9B%B2%E5%B8%82.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/08_那曲市.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/08_%E9%82%A3%E6%9B%B2%E5%B8%82.webp" width="180" alt="08_那曲市" loading="lazy">
-        <br><sub>08_那曲市</sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/09_%E9%98%BF%E9%87%8C%E5%9C%B0%E5%8C%BA.png" title="全国省份手绘地图/西藏自治区/西藏手绘地图海报_9张/09_阿里地区.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/%E8%A5%BF%E8%97%8F%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE%E6%B5%B7%E6%8A%A5_9%E5%BC%A0/09_%E9%98%BF%E9%87%8C%E5%9C%B0%E5%8C%BA.webp" width="180" alt="09_阿里地区" loading="lazy">
-        <br><sub>09_阿里地区</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
 </details>
 
 <details>
-<summary><strong>陕西省</strong> · 2 张</summary>
+<summary><strong>陕西省</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%99%95%E8%A5%BF%E7%9C%81/images/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/陕西省/images/01-陕西省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%99%95%E8%A5%BF%E7%9C%81/images/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-陕西省总图-未标注备份" loading="lazy">
-        <br><sub>01-陕西省总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%99%95%E8%A5%BF%E7%9C%81/images/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/陕西省/images/01-陕西省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%99%95%E8%A5%BF%E7%9C%81/images/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-陕西省总图" loading="lazy">
@@ -1426,20 +1109,7 @@
 </details>
 
 <details>
-<summary><strong>甘肃省</strong> · 17 张</summary>
-
-<h4>主图集 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%94%98%E8%82%83%E7%9C%81/images/01-%E7%94%98%E8%82%83%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/甘肃省/images/01-甘肃省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E7%94%98%E8%82%83%E7%9C%81/images/01-%E7%94%98%E8%82%83%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-甘肃省总图-未标注备份" loading="lazy">
-        <br><sub>01-甘肃省总图-未标注备份</sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<summary><strong>甘肃省</strong> · 16 张</summary>
 
 <h4>手绘成套图集 · 16 张</h4>
 
@@ -1553,18 +1223,12 @@
 </details>
 
 <details>
-<summary><strong>青海省</strong> · 2 张</summary>
+<summary><strong>青海省</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%9D%92%E6%B5%B7%E7%9C%81/images/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/青海省/images/01-青海省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%9D%92%E6%B5%B7%E7%9C%81/images/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-青海省总图-未标注备份" loading="lazy">
-        <br><sub>01-青海省总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%9D%92%E6%B5%B7%E7%9C%81/images/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/青海省/images/01-青海省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%9D%92%E6%B5%B7%E7%9C%81/images/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-青海省总图" loading="lazy">
@@ -1577,18 +1241,12 @@
 </details>
 
 <details>
-<summary><strong>宁夏回族自治区</strong> · 2 张</summary>
+<summary><strong>宁夏回族自治区</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/宁夏回族自治区/images/01-宁夏回族自治区总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-宁夏回族自治区总图-未标注备份" loading="lazy">
-        <br><sub>01-宁夏回族自治区总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/宁夏回族自治区/images/01-宁夏回族自治区总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-宁夏回族自治区总图" loading="lazy">
@@ -1601,18 +1259,12 @@
 </details>
 
 <details>
-<summary><strong>新疆维吾尔自治区</strong> · 2 张</summary>
+<summary><strong>新疆维吾尔自治区</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/新疆维吾尔自治区/images/01-新疆维吾尔自治区总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-新疆维吾尔自治区总图-未标注备份" loading="lazy">
-        <br><sub>01-新疆维吾尔自治区总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/新疆维吾尔自治区/images/01-新疆维吾尔自治区总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/images/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-新疆维吾尔自治区总图" loading="lazy">
@@ -1625,18 +1277,12 @@
 </details>
 
 <details>
-<summary><strong>香港特别行政区</strong> · 2 张</summary>
+<summary><strong>香港特别行政区</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/香港特别行政区/images/01-香港特别行政区总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-香港特别行政区总图-未标注备份" loading="lazy">
-        <br><sub>01-香港特别行政区总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/香港特别行政区/images/01-香港特别行政区总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-香港特别行政区总图" loading="lazy">
@@ -1649,18 +1295,12 @@
 </details>
 
 <details>
-<summary><strong>澳门特别行政区</strong> · 2 张</summary>
+<summary><strong>澳门特别行政区</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/澳门特别行政区/images/01-澳门特别行政区总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-澳门特别行政区总图-未标注备份" loading="lazy">
-        <br><sub>01-澳门特别行政区总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/澳门特别行政区/images/01-澳门特别行政区总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/images/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-澳门特别行政区总图" loading="lazy">
@@ -1673,18 +1313,12 @@
 </details>
 
 <details>
-<summary><strong>台湾省</strong> · 2 张</summary>
+<summary><strong>台湾省</strong> · 1 张</summary>
 
-<h4>主图集 · 2 张</h4>
+<h4>主图集 · 1 张</h4>
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8F%B0%E6%B9%BE%E7%9C%81/images/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.png" title="全国省份手绘地图/台湾省/images/01-台湾省总图-未标注备份.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8F%B0%E6%B9%BE%E7%9C%81/images/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE-%E6%9C%AA%E6%A0%87%E6%B3%A8%E5%A4%87%E4%BB%BD.webp" width="180" alt="01-台湾省总图-未标注备份" loading="lazy">
-        <br><sub>01-台湾省总图-未标注备份</sub>
-      </a>
-    </td>
     <td width="25%" align="center">
       <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8F%B0%E6%B9%BE%E7%9C%81/images/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/台湾省/images/01-台湾省总图.png">
         <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/%E5%8F%B0%E6%B9%BE%E7%9C%81/images/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-台湾省总图" loading="lazy">
@@ -1699,7 +1333,7 @@
 ## 早期成套系列
 
 <details>
-<summary><strong>河北</strong> · 13 张</summary>
+<summary><strong>河北省</strong> · 13 张</summary>
 
 <h4>成套图集 · 13 张</h4>
 
@@ -1795,7 +1429,7 @@
 </details>
 
 <details>
-<summary><strong>内蒙古</strong> · 15 张</summary>
+<summary><strong>内蒙古自治区</strong> · 15 张</summary>
 
 <h4>成套图集 · 15 张</h4>
 
@@ -1903,7 +1537,7 @@
 </details>
 
 <details>
-<summary><strong>河南</strong> · 19 张</summary>
+<summary><strong>河南省</strong> · 19 张</summary>
 
 <h4>成套图集 · 19 张</h4>
 
@@ -2036,190 +1670,9 @@
 
 </details>
 
-## 历史备份
-
-<details>
-<summary><strong>云南省</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E4%BA%91%E5%8D%97%E7%9C%81/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/云南省/01-云南省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E4%BA%91%E5%8D%97%E7%9C%81/01-%E4%BA%91%E5%8D%97%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-云南省总图" loading="lazy">
-        <br><sub>01-云南省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>西藏自治区</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/西藏自治区/01-西藏自治区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-西藏自治区总图" loading="lazy">
-        <br><sub>01-西藏自治区总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>陕西省</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%99%95%E8%A5%BF%E7%9C%81/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/陕西省/01-陕西省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%99%95%E8%A5%BF%E7%9C%81/01-%E9%99%95%E8%A5%BF%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-陕西省总图" loading="lazy">
-        <br><sub>01-陕西省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>甘肃省</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E7%94%98%E8%82%83%E7%9C%81/01-%E7%94%98%E8%82%83%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/甘肃省/01-甘肃省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E7%94%98%E8%82%83%E7%9C%81/01-%E7%94%98%E8%82%83%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-甘肃省总图" loading="lazy">
-        <br><sub>01-甘肃省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>青海省</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%9D%92%E6%B5%B7%E7%9C%81/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/青海省/01-青海省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%9D%92%E6%B5%B7%E7%9C%81/01-%E9%9D%92%E6%B5%B7%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-青海省总图" loading="lazy">
-        <br><sub>01-青海省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>宁夏回族自治区</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/宁夏回族自治区/01-宁夏回族自治区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-宁夏回族自治区总图" loading="lazy">
-        <br><sub>01-宁夏回族自治区总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>新疆维吾尔自治区</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/新疆维吾尔自治区/01-新疆维吾尔自治区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/01-%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-新疆维吾尔自治区总图" loading="lazy">
-        <br><sub>01-新疆维吾尔自治区总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>香港特别行政区</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/香港特别行政区/01-香港特别行政区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/01-%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-香港特别行政区总图" loading="lazy">
-        <br><sub>01-香港特别行政区总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>澳门特别行政区</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/澳门特别行政区/01-澳门特别行政区总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA/01-%E6%BE%B3%E9%97%A8%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-澳门特别行政区总图" loading="lazy">
-        <br><sub>01-澳门特别行政区总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-<details>
-<summary><strong>台湾省</strong> · 1 张</summary>
-
-<h4>未按计划顺序备份 · 1 张</h4>
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <a href="%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E5%8F%B0%E6%B9%BE%E7%9C%81/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE.png" title="全国省份手绘地图/_backup_not-plan-order_20260627-093301/台湾省/01-台湾省总图.png">
-        <img src="docs/thumbnails/%E5%85%A8%E5%9B%BD%E7%9C%81%E4%BB%BD%E6%89%8B%E7%BB%98%E5%9C%B0%E5%9B%BE/_backup_not-plan-order_20260627-093301/%E5%8F%B0%E6%B9%BE%E7%9C%81/01-%E5%8F%B0%E6%B9%BE%E7%9C%81%E6%80%BB%E5%9B%BE.webp" width="180" alt="01-台湾省总图" loading="lazy">
-        <br><sub>01-台湾省总图</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-</details>
-
 ## 说明
 
 - 缩略图仅用于 README 快速浏览，原图保持原始分辨率和文件格式。
-- 版本图、未标注备份和重复归档均按各自路径展示，确保已生成图片不遗漏。
+- 同一地理主题只展示一张：修正版和评价版优先，正式主图优先于备份与镜像归档。
+- 隐藏仅影响 README 和缩略图目录，不删除任何原始生成图片。
 - 部分 ZIP 压缩包使用 Git LFS 管理，不计入图片总数。

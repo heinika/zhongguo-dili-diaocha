@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import re
 import subprocess
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
@@ -66,6 +67,34 @@ PROVINCE_ORDER = [
 ]
 PROVINCE_RANK = {name: index for index, name in enumerate(PROVINCE_ORDER)}
 
+PROVINCE_ALIASES = {
+    "内蒙古": "内蒙古自治区",
+    "河北": "河北省",
+    "河南": "河南省",
+}
+
+# These choices were visually reviewed for outline, water-system, label, and
+# landmark placement quality. Keeping explicit paths makes future rebuilds
+# stable even when older versions remain in the repository.
+PREFERRED_PATHS = {
+    Path("provinces/内蒙古/00_内蒙古自治区总览.png"),
+    Path("provinces/河北/00_河北省总览.png"),
+    Path("provinces/河南/00_河南省总览.png"),
+    Path("全国省份手绘地图/北京市/images/01-北京市总图-v5-评价修正版.png"),
+    Path("全国省份手绘地图/北京市/images/04-朝阳区-v5.png"),
+    Path("全国省份手绘地图/北京市/images/10-通州区-v2-水系评价修正版.png"),
+    Path("全国省份手绘地图/江苏省/images/01-江苏省总图-v2.png"),
+    Path("全国省份手绘地图/甘肃省/handdrawn/00_甘肃省总览.png"),
+    Path("全国省份手绘地图/西藏自治区/images/02_西藏自治区_标签修正版.png"),
+    Path("全国省份手绘地图/重庆市/images/01-重庆市总图-修正版.png"),
+}
+
+# This file is byte-identical to the Xishuangbanna image and visibly depicts
+# tropical rainforest, Dai architecture, elephants, and the Lancang River.
+EXCLUDED_PATHS = {
+    Path("全国省份手绘地图/黑龙江省/images/02-大兴安岭地区.png"),
+}
+
 
 def tracked_images() -> list[Path]:
     try:
@@ -126,7 +155,7 @@ def make_thumbnail(source: Path) -> tuple[Path, str | None]:
 def classify(path: Path) -> tuple[str, str, str]:
     parts = path.parts
     if parts[0] == "provinces" and len(parts) >= 3:
-        return "早期成套系列", parts[1], "成套图集"
+        return "早期成套系列", PROVINCE_ALIASES.get(parts[1], parts[1]), "成套图集"
 
     if parts[0] == "全国省份手绘地图" and len(parts) >= 3:
         folder = parts[1]
@@ -148,6 +177,94 @@ def classify(path: Path) -> tuple[str, str, str]:
         return "全国省份手绘地图", province, series
 
     return "其他生成图片", parts[0], "其他"
+
+
+def province_short_name(province: str) -> str:
+    for suffix in ("特别行政区", "壮族自治区", "回族自治区", "维吾尔自治区", "自治区", "省", "市"):
+        if province.endswith(suffix):
+            return province[: -len(suffix)]
+    return province
+
+
+def subject_key(path: Path, province: str) -> str:
+    stem = re.sub(r"^\d+[-_]", "", path.stem)
+    short_name = province_short_name(province)
+    if (
+        "总图" in stem
+        or "总览" in stem
+        or (
+            short_name in stem
+            and any(marker in stem for marker in ("初版", "标签修正版"))
+        )
+    ):
+        return "__省级总览__"
+
+    return re.sub(
+        (
+            r"[-_](?:v\d+.*|未标注备份.*|旧版备份.*|未含.*|"
+            r"评价修正版.*|标签修正版.*|修正版.*|初版.*)$"
+        ),
+        "",
+        stem,
+        flags=re.IGNORECASE,
+    )
+
+
+def selection_score(path: Path) -> int:
+    if path in PREFERRED_PATHS:
+        return 10_000
+
+    text = path.as_posix()
+    score = 0
+    if "/images/" in text:
+        score += 200
+    if text.startswith("provinces/"):
+        score += 150
+    if "/handdrawn/" in text:
+        score += 180
+    if "福建手绘地图生成图/" in text:
+        score -= 100
+    if "_backup_" in text or "备份" in path.stem:
+        score -= 500
+    if "手绘地图海报_9张/" in text:
+        score -= 300
+    if "初版" in path.stem:
+        score -= 100
+    if "评价修正版" in path.stem:
+        score += 700
+    elif "标签修正版" in path.stem:
+        score += 650
+    elif "修正版" in path.stem:
+        score += 600
+
+    version = re.search(r"(?:^|-)v(\d+)", path.stem, flags=re.IGNORECASE)
+    if version:
+        score += int(version.group(1)) * 50
+    return score
+
+
+def select_visible_images(images: list[Path]) -> tuple[list[Path], list[Path]]:
+    grouped: dict[tuple[str, str], list[Path]] = defaultdict(list)
+    hidden = []
+    for image in images:
+        if image in EXCLUDED_PATHS:
+            hidden.append(image)
+            continue
+        _, province, _ = classify(image)
+        grouped[(province, subject_key(image, province))].append(image)
+
+    selected = []
+    for candidates in grouped.values():
+        winner = max(
+            candidates,
+            key=lambda path: (selection_score(path), path.as_posix()),
+        )
+        selected.append(winner)
+        hidden.extend(path for path in candidates if path != winner)
+    return (
+        sorted(selected, key=lambda path: path.as_posix()),
+        sorted(hidden, key=lambda path: path.as_posix()),
+    )
 
 
 def province_sort_key(name: str) -> tuple[int, str]:
@@ -186,7 +303,11 @@ def image_table(paths: list[Path]) -> list[str]:
     return lines
 
 
-def build_readme(images: list[Path]) -> str:
+def build_readme(
+    images: list[Path],
+    source_count: int,
+    hidden_count: int,
+) -> str:
     grouped: dict[str, dict[str, dict[str, list[Path]]]] = defaultdict(
         lambda: defaultdict(lambda: defaultdict(list))
     )
@@ -202,13 +323,17 @@ def build_readme(images: list[Path]) -> str:
         "## 图片总览",
         "",
         (
-            f"当前 README 共展示 **{len(images)} 张已生成图片**。"
+            f"仓库共有 **{source_count} 张已生成图片**，当前 README 精选展示"
+            f" **{len(images)} 张**；同一省份、城市或地区只保留一个最佳版本。"
             "所有画面均使用轻量缩略图，点击后可打开仓库中的 PNG、JPEG、"
             "WebP 或 GIF 原图。"
         ),
         "",
-        "> 本画廊由 `tools/build_readme_gallery.py` 根据 Git 已跟踪图片自动生成；"
-        "新增图片后重新运行脚本即可更新分类和缩略图。",
+        (
+            f"> 已隐藏 {hidden_count} 个旧版、备份、镜像重复或内容误归类入口；"
+            "原始文件仍完整保留。本画廊由 `tools/build_readme_gallery.py` "
+            "根据已审核选择规则自动生成。"
+        ),
         "",
         "## 分类导航",
         "",
@@ -284,7 +409,8 @@ def build_readme(images: list[Path]) -> str:
             "## 说明",
             "",
             "- 缩略图仅用于 README 快速浏览，原图保持原始分辨率和文件格式。",
-            "- 版本图、未标注备份和重复归档均按各自路径展示，确保已生成图片不遗漏。",
+            "- 同一地理主题只展示一张：修正版和评价版优先，正式主图优先于备份与镜像归档。",
+            "- 隐藏仅影响 README 和缩略图目录，不删除任何原始生成图片。",
             "- 部分 ZIP 压缩包使用 Git LFS 管理，不计入图片总数。",
             "",
         ]
@@ -293,9 +419,10 @@ def build_readme(images: list[Path]) -> str:
 
 
 def main() -> None:
-    images = tracked_images()
-    if not images:
+    source_images = tracked_images()
+    if not source_images:
         raise SystemExit("No tracked images found.")
+    images, hidden_images = select_visible_images(source_images)
 
     with ThreadPoolExecutor(max_workers=6) as executor:
         results = list(executor.map(make_thumbnail, images))
@@ -312,8 +439,18 @@ def main() -> None:
             if relative not in expected:
                 existing.unlink()
 
-    (ROOT / "README.md").write_text(build_readme(images), encoding="utf-8")
-    print(f"Generated {len(images)} thumbnails and README entries.")
+    (ROOT / "README.md").write_text(
+        build_readme(
+            images,
+            source_count=len(source_images),
+            hidden_count=len(hidden_images),
+        ),
+        encoding="utf-8",
+    )
+    print(
+        f"Selected {len(images)} of {len(source_images)} images; "
+        f"hid {len(hidden_images)} duplicate or inaccurate entries."
+    )
 
 
 if __name__ == "__main__":
