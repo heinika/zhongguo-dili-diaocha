@@ -21,9 +21,10 @@ THUMBNAIL_SIZE = (240, 360)
 
 COLLECTION_ORDER = {
     "全国省份手绘地图": 0,
-    "早期成套系列": 1,
-    "历史备份": 2,
-    "其他生成图片": 3,
+    "省市成套补充图集": 1,
+    "早期成套系列": 2,
+    "历史备份": 3,
+    "其他生成图片": 4,
 }
 
 PROVINCE_ORDER = [
@@ -82,11 +83,15 @@ PREFERRED_PATHS = {
     Path("provinces/河南/00_河南省总览.png"),
     Path("全国省份手绘地图/北京市/images/01-北京市总图-v5-评价修正版.png"),
     Path("全国省份手绘地图/北京市/images/04-朝阳区-v5.png"),
-    Path("全国省份手绘地图/北京市/images/10-通州区-v2-水系评价修正版.png"),
+    Path("全国省份手绘地图/北京市/images/10-通州区-v3-温潮减河修正版.png"),
+    Path("全国省份手绘地图/上海市/等距微缩城市/images/00_上海市总览_等距微缩城市.png"),
     Path("全国省份手绘地图/江苏省/images/01-江苏省总图-v2.png"),
+    Path("全国省份手绘地图/湖南省/images/01-湖南省总图.png"),
     Path("全国省份手绘地图/甘肃省/handdrawn/00_甘肃省总览.png"),
     Path("全国省份手绘地图/西藏自治区/images/02_西藏自治区_标签修正版.png"),
-    Path("全国省份手绘地图/重庆市/images/01-重庆市总图-修正版.png"),
+    Path("全国省份手绘地图/广西壮族自治区/images/01-广西壮族自治区总图.png"),
+    Path("重庆37区县复古手绘地图/重庆37区县复古手绘地图/00_重庆市总览.png"),
+    Path("陕西省/00_陕西省总览.png"),
 }
 
 # This file is byte-identical to the Xishuangbanna image and visibly depicts
@@ -157,6 +162,12 @@ def classify(path: Path) -> tuple[str, str, str]:
     if parts[0] == "provinces" and len(parts) >= 3:
         return "早期成套系列", PROVINCE_ALIASES.get(parts[1], parts[1]), "成套图集"
 
+    if parts[0] in {"广西壮族自治区", "陕西省"}:
+        return "省市成套补充图集", parts[0], "成套图集"
+
+    if parts[0] == "重庆37区县复古手绘地图":
+        return "省市成套补充图集", "重庆市", "37区县成套图集"
+
     if parts[0] == "全国省份手绘地图" and len(parts) >= 3:
         folder = parts[1]
         if folder.startswith("_backup_") and len(parts) >= 4:
@@ -188,6 +199,7 @@ def province_short_name(province: str) -> str:
 
 def subject_key(path: Path, province: str) -> str:
     stem = re.sub(r"^\d+[-_]", "", path.stem)
+    stem = re.sub(r"[-_]等距微缩城市$", "", stem)
     short_name = province_short_name(province)
     if (
         "总图" in stem
@@ -218,6 +230,8 @@ def selection_score(path: Path) -> int:
     score = 0
     if "/images/" in text:
         score += 200
+    if "/等距微缩城市/" in text:
+        score -= 150
     if text.startswith("provinces/"):
         score += 150
     if "/handdrawn/" in text:
