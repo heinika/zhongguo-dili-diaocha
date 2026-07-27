@@ -1,0 +1,66 @@
+Use case: style-transfer + coordinate-locked illustrated map poster
+Asset type: hand-drawn vintage travel-map poster
+Primary request: Generate a hand-drawn vintage Nenjiang poster based on the reference map, but lock every required orange label to its parsed pixel coordinate. Pixel coordinate accuracy is the priority.
+
+Authoritative canvas and layout:
+- Reference canvas is 2160 x 3840 px, portrait 9:16.
+- Preserve the reference layout: large title area on the left; map silhouette occupies the center-right/right half; northern narrow extension begins around y=700-1100; broad southern body spans x≈520-1760 and y≈2100-3000; southwest river mouth extends toward x≈520,y≈2850.
+- The map outline, river/water system, and orange labels must follow the reference coordinate system. Do not recenter or reshape the map.
+
+External outline geometry, described as coordinate anchors:
+- Treat the Nenjiang body as one fixed irregular silhouette, not a decorative island. Keep the overall bounding area around x≈520-1920 and y≈720-3070, with the visual center of the map on the right half of the poster.
+- North/top section: begin with a thin blue river-and-wetland head around (1480,720), curl northeast to (1650,760), then descend as a narrow winding river edge toward (1660,1050). This upper tip must feel like a narrow watery neck, not a wide land mass.
+- Upper western river edge: from about (1450,980) the western boundary bends left to (1260,1220), narrows at (1190,1350), then follows a large S-shaped river wall down through (1190,1600), (1220,1840), and (1110,2050). The west side should be river-carved and sinuous.
+- Upper eastern land edge: after the narrow northern neck, the land expands eastward around (1600,1350), forms a small angular right-side step near (1680,1530), then narrows back near (1560,1750). This side is not smooth; preserve the stepped administrative-like contour.
+- Middle city section: this is NOT a narrow waist or vertical island. From y≈2050 to y≈2550 the land must widen into a broad city-and-farmland platform. Its west edge pushes left toward x≈720-850 around y≈2250-2550, then curves down along the river. The orange label cluster sits on top of this broad middle body, not inside a thin strip. Keep plenty of land mass left of 博物馆, 驿站公园, 墨尔根驿站旧址, 客运站, and 东方汇酒店.
+- East protrusion: preserve the right/east lobe that reaches toward x≈1900 around y≈2230-2350. Do not crop or round this protrusion.
+- Southeast edge: from the east lobe, the boundary descends in angular steps; it must not become a smooth oval edge. The southeast body remains wide around x≈1450-1750 and y≈2450-2700, then steps inward near the lower-right edge.
+- Southern base: the lower body is NOT a pointed taper. It should have a broad, almost horizontal lower boundary around y≈2750-2920, running roughly from x≈760 on the southwest side to x≈1500 on the southeast side, with a rectangular/stepped notch near x≈1250-1350. 古驿雄风 sits near the lower-right/south edge, but the land around it remains broad.
+- Southwest section: preserve the broad southwest shoulder from x≈720-950 and y≈2400-2800, with 腾克木鲁大道 around (890,2628). This southwest shoulder is a large block of land, not a thin riverbank. Then a blue wetland/river mouth spreads left and downward toward (520,2860). 三江口入松花江 belongs at this far southwest river-mouth shape.
+- Western lower river mouth: the southwest water must flare outward like a branching delta or wetland around x≈520-780 and y≈2700-3000, not a single straight river. Keep 江湾湿地 in this wetland zone.
+- Overall silhouette rule: the outer contour must follow these bends and lobes; never recenter the map, never straighten it into a vertical strip, never turn it into a symmetrical leaf/island.
+- Critical shape correction: the middle and bottom outline must match the reference: broad middle platform, large southwest block, stepped southeast edge, and flat/broad southern bottom. Avoid any long teardrop, leaf, canoe, or raised-island silhouette that narrows continuously toward the bottom.
+
+Style:
+- Antique parchment background, thin Chinese decorative border, large black brush title “嫩江” on the left, subtitle “驿城・宜水・驿之鹅”.
+- Convert the reference map into a hand-drawn vintage atlas illustration: ink linework, watercolor land washes, blue river/wetland washes, sepia outlines, small pictorial landmarks.
+- Keep the map clean: no administrative subdivision labels, no township/village base-map names, no cadastral grid, no dense gray/black map text.
+- No railway tracks, no black dashed railway corridor, no railway labels, no highway direction arrows, no external route direction labels. If 嫩江站 is shown, it is only a small transport landmark label/icon, not connected to railway tracks.
+
+Coordinate-locked orange labels:
+Place each orange rounded label at the following exact center coordinates on the 2160x3840 canvas. Keep these positions as close as possible; do not redistribute them for visual balance.
+1. 水师营遗址: center (1500,1956), north/upper-central point near 北大营屯.
+2. 嫩江春白酒: center (1533,2076), upper-central/east of core.
+3. 浮桥: center (1192,2130), west-central river crossing.
+4. 嫩江大酒店: center (1384,2148), central-northwest urban core.
+5. 北鹅产业园: center (1517,2177), central-east.
+6. 玉带金珠: center (1334,2202), central urban core.
+7. 农机产业园: center (1639,2219), east side.
+8. 中国大豆城: center (1739,2256), far east/right side.
+9. 立交桥: center (1589,2264), east-central road junction.
+10. 博物馆: center (1231,2274), west-central city core.
+11. 墨尔根老街: center (1334,2289), central city core.
+12. 嫩江站: center (1532,2305), east-central urban edge; no railway tracks.
+13. 商业区: center (1328,2331), central city core.
+14. 冰花啤酒厂: center (1631,2332), southeast/east-central area.
+15. 驿站公园: center (1138,2351), west/southwest city core.
+16. 中小企业孵化园: center (1538,2386), southeast/east-central area.
+17. 墨尔根驿站旧址: center (1160,2399), below 驿站公园 / lower west-central area.
+18. 创意里: center (1378,2411), lower central urban core.
+19. 客运站: center (1345,2454), lower central urban core.
+20. 东方汇酒店: center (1306,2523), lower central/southwest of city core.
+21. 腾克木鲁大道: center (890,2628), far southwest road area.
+22. 古驿雄风: center (1480,2825), lower southeast/south edge near highway direction.
+
+Other required non-orange geographic labels:
+- 嫩江水系 should sit beside the west/northwest river system.
+- 三江口入松花江 should sit at the far southwest river mouth.
+- 江湾湿地 should sit around the southwest river/wetland area.
+- Do not include highway direction labels such as 双嫩高速方向, 至黑河, or 至齐齐哈尔/双嫩.
+
+Composition constraints:
+- The output can be more illustrated and less flat than the reference, but the contour and label anchors must match the coordinate layout.
+- Do not add side inset panels or bottom vignettes if they interfere with the coordinate-locked map. Priority is accurate map and labels.
+- Chinese text must be short and legible. Avoid invented text, incorrect extra labels, watermark, photorealism, and modern UI.
+
+Output: a polished 9:16 PNG poster, hand-drawn style, with coordinate-locked map outline and labels.

@@ -1,0 +1,15 @@
+{
+  "new_prompt_count": 166,
+  "groups": {
+    "华北东北.md": 50,
+    "华东.md": 36,
+    "华南.md": 16,
+    "西南.md": 37,
+    "西北.md": 27
+  },
+  "existing_prompt_only": {
+    "上海市": 16,
+    "湖北省": 17
+  },
+  "province_overviews_missing": 0
+}
