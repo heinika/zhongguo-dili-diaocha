@@ -1,1 +1,16 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/北京市/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/天津市/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/河北省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/内蒙古自治区/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/湖北省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/广东省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/四川省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/贵州省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/甘肃省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/青海省/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/宁夏回族自治区/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/新疆维吾尔自治区/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/香港特别行政区/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/澳门特别行政区/images/*.png filter=lfs diff=lfs merge=lfs -text
+全国省份手绘地图/台湾省/images/*.png filter=lfs diff=lfs merge=lfs -text
